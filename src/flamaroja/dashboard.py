@@ -21,6 +21,7 @@ _PAGE = """<!doctype html>
   h1 { font-size:18px; margin:0; color:var(--accent); }
   header .stat { color:var(--dim); } header .stat b { color:var(--text); }
   .grid { display:grid; grid-template-columns: 484px 1fr; gap:16px; max-width:1280px; }
+  .grid > div { min-width: 0; }  /* el log nowrap desbordava la columna dreta fora del viewport */
   @media (max-width: 1000px) { .grid { grid-template-columns: 1fr; } }
   .card { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:14px; margin-bottom:14px; }
   .card h2 { font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--dim); margin:0 0 10px; }
@@ -73,7 +74,7 @@ const QUESTIONS = [
   ["battle_plan","choice","pla batalla"],
   ["objective","choice","objectiu"],
   ["party_critical","noul","party critical"],
-  ["enemy_threat","score","amenaaca enemic"],
+  ["enemy_threat","score","amenaça enemic"],
 ];
 function esc(s){const d=document.createElement("div");d.textContent=String(s);return d.innerHTML;}
 function bars(q){

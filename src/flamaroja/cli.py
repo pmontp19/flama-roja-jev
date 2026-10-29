@@ -215,7 +215,6 @@ def cmd_run(args: argparse.Namespace) -> None:
         nav = Navigator(emu, cfg)
         cur_map: tuple[int, int] | None = None
         came_from: tuple[int, int] | None = None
-        parcel_seen = False
         grass_cache: dict[tuple[int, int], set[tuple[int, int]]] = {}
         grind_last: tuple[int, int] | None = None
         grind_steps = 0
@@ -234,7 +233,6 @@ def cmd_run(args: argparse.Namespace) -> None:
             if cycle and cycle % 200 == 0:
                 print(f"[{cycle:06d}] decisions: jev={calls['jev']} codi={calls['code']}", flush=True)
             here = (gs.map_bank, gs.map_number)
-            parcel_seen = parcel_seen or gs.has_parcel
             if here not in visited:  # instantania de la primera visita a cada mapa: punt de partida per depurar
                 Path("maps").mkdir(exist_ok=True)
                 emu.save_state(f"maps/{here[0]}_{here[1]}.ss")
@@ -243,7 +241,6 @@ def cmd_run(args: argparse.Namespace) -> None:
                 lost = False
             elif gs.battle_outcome == 2 and not lost:  # hem perdut: entrena 2 nivells mes abans de tornar a provar
                 lost, grind_target = True, min(grind_target + 2, 30)
-            gs.parcel_delivered = parcel_seen and not gs.has_parcel
             if here != cur_map:
                 came_from, cur_map = cur_map, here
                 world.enter(here, came_from)
@@ -276,6 +273,11 @@ def cmd_run(args: argparse.Namespace) -> None:
                 if blocked_n == 6:  # encallat de debò: deixa l'estat per reproduir-ho
                     emu.save_state("stuck.ss")
                     emu.screen().save("stuck.png")
+                if blocked_n == 12 and nav.warp is not None:  # ni el menu: la sortida no es assolible, no la tornis a proposar
+                    world.ban(here, nav.warp.x, nav.warp.y)
+                if blocked_n and blocked_n % 6 == 0:  # un menu (p.ex. aprendre moviment) absorbeix els botons: B cancela, A confirma
+                    for b in ("b", "b", "a"):
+                        emu.press(b, hold=4, settle=40)
                 if status in ("done", "warped", "blocked"):
                     last = f"walked toward tile {tuple(nav.tile)}: {status}, now in map {bank}/{num}"
                     nav.clear()
@@ -366,7 +368,7 @@ def cmd_run(args: argparse.Namespace) -> None:
                 and dec.nav_destination.startswith("warp_")
                 and dec.nav_confidence >= cfg.confidence_floor
             ):
-                usable = nav_options(gs, came_from)
+                usable = nav_options(gs, came_from, world)
                 try:
                     idx = int(dec.nav_destination.removeprefix("warp_"))
                     goal = usable[idx]
@@ -381,7 +383,7 @@ def cmd_run(args: argparse.Namespace) -> None:
                     emu.screen().save("idle.png")
                 if idle >= 2:  # ponytail: si el model dubta, explora: sortida cap al nord, mapes nous, mes probable
                     scores = (dec.raw.get("probabilities") or {}).get("nav_destination") or {}
-                    usable = nav_options(gs, came_from)
+                    usable = nav_options(gs, came_from, world)
 
                     goal = next((w for _, w in sorted(enumerate(usable), key=lambda it: (0 if (it[1].dest_bank, it[1].dest_map) == (6, 2) and not gs.badges else 1, 0 if gs.parcel_delivered and it[1].edge == "up" else 1, world.visits(it[1].dest_bank, it[1].dest_map), -(scores.get(f"warp_{it[0]}") or 0.0))) if nav.set_goal(gs.cmap, w)), None)
             else:
@@ -428,7 +430,7 @@ def cmd_run(args: argparse.Namespace) -> None:
                 ["battle_plan", "choice", "pla batalla", dec.battle, probs.get("battle_plan")],
                 ["objective", "choice", "objectiu", dec.objective, probs.get("objective")],
                 ["party_critical", "noul", "party critica", dec.hp_critical, None],
-                ["enemy_threat", "score", "amenaaca enemic", dec.enemy_threat, None],
+                ["enemy_threat", "score", "amenaça enemic", dec.enemy_threat, None],
             ]
             presses_view = [{"button": p.button, "hold": p.hold, "settle": p.settle} for p in presses]
             trace.log(

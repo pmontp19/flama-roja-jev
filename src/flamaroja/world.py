@@ -36,6 +36,14 @@ class World:
             m["notes"].append(text)
             self._save()
 
+    def ban(self, here: tuple[int, int], x: int, y: int) -> None:
+        """Sortida on la navegacio s'ha encallat 6 cops: deixa de proposar-la."""
+        self.maps.setdefault(self.key(*here), {"visits": 0, "from": [], "notes": []}).setdefault("banned", []).append([x, y])
+        self._save()
+
+    def banned(self, here: tuple[int, int], x: int, y: int) -> bool:
+        return [x, y] in self.maps.get(self.key(*here), {}).get("banned", [])
+
     def visits(self, bank: int, num: int) -> int:
         return self.maps.get(self.key(bank, num), {}).get("visits", 0)
 

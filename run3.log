@@ -1,0 +1,828 @@
+dashboard: http://127.0.0.1:8000
+backend=jev provider=openai model=jev-latest trace=trace3.jsonl
+[000000 f=442] map 3/2 48x40 pos(15,16) face=down party=1 battle=N dialog='Estàs eixint del BOSC VERD
+CIUTAT GRISEN' | mode=dialog ow=down nav=warp_2 dlg=advance bat=attack obj=story -> a
+[000001 f=562] map 3/2 48x40 pos(15,17) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(15,16)->6/2 obj=story
+[000002 f=595] nav walking goal=(15, 16) map 3/2 pos(15,16)
+[000003 f=680] nav warped goal=(15, 16) map 6/2 pos(6,14)
+[000004 f=815] map 6/2 13x16 pos(6,14) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(6,5)->-1/-1 obj=heal
+[000005 f=848] nav walking goal=(6, 6) map 6/2 pos(6,12)
+[000006 f=896] nav walking goal=(6, 6) map 6/2 pos(6,10)
+[000007 f=944] nav walking goal=(6, 6) map 6/2 pos(6,8)
+[000008 f=992] nav walking goal=(6, 6) map 6/2 pos(6,8)
+[000009 f=1040] nav walking goal=(6, 6) map 6/2 pos(6,8)
+[000010 f=1055] nav blocked goal=(6, 6) map 6/2 pos(6,8)
+[000011 f=1182] map 6/2 13x16 pos(6,8) face=up party=1 battle=N dialog='Iep, para el carro!?Estàs a anys llum d’' | mode=dialog ow=down nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000012 f=1294] map 6/2 13x16 pos(6,8) face=up party=1 battle=N dialog='Iep, para el carro!?Estàs a anys llum d’' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000013 f=1406] map 6/2 13x16 pos(6,8) face=up party=1 battle=N dialog='Iep, para el carro!?Estàs a anys llum d’' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000014 f=1526] map 6/2 13x16 pos(6,8) face=up party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_0 dlg=advance bat=attack obj=heal -> wait
+[000020 f=1748] battle text -> a
+[000038 f=2489] map 6/2 13x16 pos(6,8) face=up party=1 battle=Y enemy=Geodude Lv10 28/28HP [action] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000039 f=2675] map 6/2 13x16 pos(6,8) face=up party=1 battle=Y enemy=Geodude Lv10 28/28HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> right+down+a
+[000040 f=2712] battle text -> a
+[000060 f=3452] battle text -> a
+[000075 f=4112] map 6/2 13x16 pos(6,8) face=up party=1 battle=Y enemy=Sandshrew Lv11 32/32HP [action] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000076 f=4284] map 6/2 13x16 pos(6,8) face=up party=1 battle=Y enemy=Sandshrew Lv11 32/32HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000080 f=4432] battle text -> a
+[000096 f=5099] map 6/2 13x16 pos(6,8) face=up party=1 battle=Y enemy=Sandshrew Lv11 5/32HP [action] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000097 f=5271] map 6/2 13x16 pos(6,8) face=up party=1 battle=Y enemy=Sandshrew Lv11 5/32HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000100 f=5382] battle text -> a
+[000120 f=6122] battle text -> a
+[000140 f=6862] battle text -> a
+[000146 f=7197] map 6/2 13x16 pos(6,8) face=up party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_0 dlg=advance bat=attack obj=heal -> wait
+[000147 f=7287] map 6/2 13x16 pos(6,8) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(6,5)->-1/-1 obj=heal
+[000148 f=7320] nav walking goal=(6, 6) map 6/2 pos(6,6)
+[000149 f=7427] nav done goal=(6, 6) map 6/2 pos(6,6)
+[000150 f=7584] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Em diuen ROC.
+Soc el LÍDER d’este GIMNÀS' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000151 f=7696] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Em diuen ROC.
+Soc el LÍDER d’este GIMNÀS' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000152 f=7838] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Em diuen ROC.
+Soc el LÍDER d’este GIMNÀS' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000153 f=7950] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Em diuen ROC.
+Soc el LÍDER d’este GIMNÀS' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000154 f=8092] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Em diuen ROC.
+Soc el LÍDER d’este GIMNÀS' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000155 f=8204] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Em diuen ROC.
+Soc el LÍDER d’este GIMNÀS' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000156 f=8346] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Em diuen ROC.
+Soc el LÍDER d’este GIMNÀS' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000157 f=8488] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Em diuen ROC.
+Soc el LÍDER d’este GIMNÀS' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000158 f=8630] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Em diuen ROC.
+Soc el LÍDER d’este GIMNÀS' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000159 f=8742] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Em diuen ROC.
+Soc el LÍDER d’este GIMNÀS' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000160 f=8884] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Em diuen ROC.
+Soc el LÍDER d’este GIMNÀS' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000161 f=8966] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Em diuen ROC.
+Soc el LÍDER d’este GIMNÀS' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000162 f=9116] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> wait
+[000180 f=9782] battle text -> a
+[000185 f=10102] map 6/2 13x16 pos(6,6) face=up party=1 battle=Y enemy=Geodude Lv12 31/31HP [action] dialog='' | mode=battle ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000186 f=10288] map 6/2 13x16 pos(6,6) face=up party=1 battle=Y enemy=Geodude Lv12 31/31HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> right+down+a
+[000200] decisions: jev=30 codi=171
+[000200 f=10806] battle text -> a
+[000220 f=11546] battle text -> a
+[000222 f=11725] map 6/2 13x16 pos(6,6) face=up party=1 battle=Y enemy=Onix Lv14 33/33HP [action] dialog='' | mode=battle ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000223 f=11897] map 6/2 13x16 pos(6,6) face=up party=1 battle=Y enemy=Onix Lv14 33/33HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000240 f=12526] battle text -> a
+[000260 f=13266] battle text -> a
+[000280 f=14006] battle text -> a
+[000300 f=14746] battle text -> a
+[000320 f=15486] battle text -> a
+[000325 f=15814] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_0 dlg=advance bat=attack obj=story -> wait
+[000326 f=15904] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(6,5)->-1/-1 obj=story
+[000327 f=15996] nav done goal=(6, 6) map 6/2 pos(6,6)
+[000328 f=16101] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(6,5)->-1/-1 obj=story
+[000329 f=16193] nav done goal=(6, 6) map 6/2 pos(6,6)
+[000330 f=16328] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(6,5)->-1/-1 obj=story
+[000331 f=16420] nav done goal=(6, 6) map 6/2 pos(6,6)
+[000332 f=16525] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(6,5)->-1/-1 obj=story
+[000333 f=16617] nav done goal=(6, 6) map 6/2 pos(6,6)
+[000334 f=16752] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(6,5)->-1/-1 obj=story
+[000335 f=16844] nav done goal=(6, 6) map 6/2 pos(6,6)
+[000336 f=16949] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(6,5)->-1/-1 obj=story
+[000337 f=17041] nav done goal=(6, 6) map 6/2 pos(6,6)
+[000338 f=17176] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(6,5)->-1/-1 obj=story
+[000339 f=17268] nav done goal=(6, 6) map 6/2 pos(6,6)
+[000340 f=17395] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Espera!
+Açò és per a tu.' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000341 f=17507] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='PERE rep la MT39
+de ROC.' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000342 f=17619] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='PERE rep la MT39
+de ROC.' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000343 f=17731] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='Guardes MT39 a
+CAPSA D’MT.' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000344 f=17873] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='És una MT o Màquina Tècnica.?Pot ensenya' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000345 f=17985] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='És una MT o Màquina Tècnica.?Pot ensenya' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000346 f=18127] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='És una MT o Màquina Tècnica.?Pot ensenya' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000347 f=18239] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='És una MT o Màquina Tècnica.?Pot ensenya' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000348 f=18351] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='És una MT o Màquina Tècnica.?Pot ensenya' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000349 f=18463] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='És una MT o Màquina Tècnica.?Pot ensenya' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000350 f=18605] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='És una MT o Màquina Tècnica.?Pot ensenya' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000351 f=18717] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='És una MT o Màquina Tècnica.?Pot ensenya' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000352 f=18859] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='És una MT o Màquina Tècnica.?Pot ensenya' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000353 f=18971] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='És una MT o Màquina Tècnica.?Pot ensenya' | mode=dialog ow=interact nav=none dlg=advance bat=attack obj=story -> a
+[000354 f=19091] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=none dlg=advance bat=attack obj=story -> wait
+[000355 f=19181] map 6/2 13x16 pos(6,6) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(6,14)->3/2 obj=story
+[000356 f=19214] nav walking goal=(6, 14) map 6/2 pos(6,7)
+[000357 f=19262] nav walking goal=(6, 14) map 6/2 pos(6,9)
+[000358 f=19310] nav walking goal=(6, 14) map 6/2 pos(6,11)
+[000359 f=19358] nav walking goal=(6, 14) map 6/2 pos(6,13)
+[000360 f=19406] nav walking goal=(6, 14) map 6/2 pos(6,14)
+[000361 f=19491] nav warped goal=(6, 14) map 3/2 pos(15,16)
+[000362 f=19596] map 3/2 48x40 pos(15,16) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(23,39)->3/20 obj=story
+[000363 f=19629] nav walking goal=(23, 39) map 3/2 pos(14,17)
+[000364 f=19677] nav walking goal=(23, 39) map 3/2 pos(12,17)
+[000365 f=19725] nav walking goal=(23, 39) map 3/2 pos(10,17)
+[000366 f=19773] nav walking goal=(23, 39) map 3/2 pos(8,17)
+[000367 f=19821] nav walking goal=(23, 39) map 3/2 pos(8,16)
+[000368 f=19869] nav walking goal=(23, 39) map 3/2 pos(8,14)
+[000369 f=19917] nav walking goal=(23, 39) map 3/2 pos(8,12)
+[000370 f=19965] nav walking goal=(23, 39) map 3/2 pos(9,12)
+[000371 f=20013] nav walking goal=(23, 39) map 3/2 pos(11,12)
+[000372 f=20061] nav walking goal=(23, 39) map 3/2 pos(13,12)
+[000373 f=20109] nav walking goal=(23, 39) map 3/2 pos(15,12)
+[000374 f=20157] nav walking goal=(23, 39) map 3/2 pos(17,12)
+[000375 f=20205] nav walking goal=(23, 39) map 3/2 pos(19,12)
+[000376 f=20253] nav walking goal=(23, 39) map 3/2 pos(21,12)
+[000377 f=20301] nav walking goal=(23, 39) map 3/2 pos(23,12)
+[000378 f=20349] nav walking goal=(23, 39) map 3/2 pos(23,13)
+[000379 f=20397] nav walking goal=(23, 39) map 3/2 pos(23,15)
+[000380 f=20445] nav walking goal=(23, 39) map 3/2 pos(23,17)
+[000381 f=20493] nav walking goal=(23, 39) map 3/2 pos(23,19)
+[000382 f=20541] nav walking goal=(23, 39) map 3/2 pos(23,21)
+[000383 f=20589] nav walking goal=(23, 39) map 3/2 pos(23,23)
+[000384 f=20637] nav walking goal=(23, 39) map 3/2 pos(23,25)
+[000385 f=20685] nav walking goal=(23, 39) map 3/2 pos(23,27)
+[000386 f=20733] nav walking goal=(23, 39) map 3/2 pos(23,29)
+[000387 f=20781] nav walking goal=(23, 39) map 3/2 pos(23,31)
+[000388 f=20829] nav walking goal=(23, 39) map 3/2 pos(23,33)
+[000389 f=20877] nav walking goal=(23, 39) map 3/2 pos(23,35)
+[000390 f=20925] nav walking goal=(23, 39) map 3/2 pos(23,37)
+[000391 f=20973] nav walking goal=(23, 39) map 3/2 pos(23,39)
+[000392 f=21058] nav warped goal=(23, 39) map 3/20 pos(11,1)
+[000393 f=21253] map 3/20 24x80 pos(11,1) face=down party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_10 dlg=advance bat=attack obj=story -> wait
+[000394 f=21373] map 3/20 24x80 pos(11,1) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(5,13)->15/3 obj=story
+[000395 f=21406] nav walking goal=(5, 13) map 3/20 pos(11,3)
+[000396 f=21454] nav walking goal=(5, 13) map 3/20 pos(11,5)
+[000397 f=21502] nav walking goal=(5, 13) map 3/20 pos(11,7)
+[000398 f=21550] nav walking goal=(5, 13) map 3/20 pos(11,9)
+[000399 f=21598] nav walking goal=(5, 13) map 3/20 pos(11,11)
+[000400] decisions: jev=59 codi=342
+[000400 f=21646] nav walking goal=(5, 13) map 3/20 pos(11,12)
+[000401 f=21694] nav walking goal=(5, 13) map 3/20 pos(9,12)
+[000402 f=21742] nav walking goal=(5, 13) map 3/20 pos(7,12)
+[000403 f=21790] nav walking goal=(5, 13) map 3/20 pos(5,12)
+[000404 f=21838] nav walking goal=(5, 13) map 3/20 pos(5,13)
+[000405 f=21923] nav warped goal=(5, 13) map 15/3 pos(7,2)
+[000406 f=22058] map 15/3 15x12 pos(7,2) face=down party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_0 dlg=advance bat=attack obj=heal -> wait
+[000407 f=22148] map 15/3 15x12 pos(7,2) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(7,10)->1/0 obj=heal
+[000408 f=22181] nav walking goal=(7, 10) map 15/3 pos(7,4)
+[000409 f=22229] nav walking goal=(7, 10) map 15/3 pos(7,6)
+[000410 f=22277] nav walking goal=(7, 10) map 15/3 pos(7,8)
+[000411 f=22325] nav walking goal=(7, 10) map 15/3 pos(7,10)
+[000412 f=22410] nav warped goal=(7, 10) map 1/0 pos(5,9)
+[000413 f=22545] map 1/0 54x69 pos(5,9) face=down party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_0 dlg=advance bat=attack obj=story -> wait
+[000414 f=22665] map 1/0 54x69 pos(5,10) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(29,62)->15/0 obj=story
+[000415 f=22698] nav walking goal=(29, 62) map 1/0 pos(5,12)
+[000416 f=22746] nav walking goal=(29, 62) map 1/0 pos(5,14)
+[000417 f=22794] nav walking goal=(29, 62) map 1/0 pos(5,16)
+[000418 f=22842] nav walking goal=(29, 62) map 1/0 pos(5,18)
+[000419 f=22890] nav walking goal=(29, 62) map 1/0 pos(5,20)
+[000420 f=22938] nav walking goal=(29, 62) map 1/0 pos(5,22)
+[000421 f=22986] nav walking goal=(29, 62) map 1/0 pos(5,24)
+[000422 f=23034] nav walking goal=(29, 62) map 1/0 pos(5,26)
+[000423 f=23082] nav walking goal=(29, 62) map 1/0 pos(5,28)
+[000424 f=23130] nav walking goal=(29, 62) map 1/0 pos(5,27)
+[000425 f=23178] nav walking goal=(29, 62) map 1/0 pos(5,27)
+[000426 f=23226] nav walking goal=(29, 62) map 1/0 pos(5,27)
+[000427 f=23274] nav walking goal=(29, 62) map 1/0 pos(5,27)
+[000428 f=23322] nav blocked goal=(29, 62) map 1/0 pos(5,27)
+[000440 f=23886] map 1/0 54x69 pos(5,27) face=right party=1 battle=Y enemy=Weedle Lv3 15/15HP [action] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000441 f=24042] map 1/0 54x69 pos(5,27) face=right party=1 battle=Y enemy=Weedle Lv3 15/15HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> right+down+a
+[000460 f=24745] battle text -> a
+[000464 f=24976] map 1/0 54x69 pos(5,27) face=right party=1 battle=N dialog='' | mode=overworld ow=right nav=warp_0 dlg=advance bat=attack obj=story -> wait
+[000465 f=25126] map 1/0 54x69 pos(5,27) face=right party=1 battle=N dialog='' | mode=overworld nav_goal=warp(29,62)->15/0 obj=story
+[000466 f=25159] nav walking goal=(29, 62) map 1/0 pos(7,27)
+[000467 f=25207] nav walking goal=(29, 62) map 1/0 pos(9,27)
+[000468 f=25255] nav walking goal=(29, 62) map 1/0 pos(11,27)
+[000469 f=25303] nav walking goal=(29, 62) map 1/0 pos(11,26)
+[000470 f=25351] nav walking goal=(29, 62) map 1/0 pos(11,24)
+[000471 f=25399] nav walking goal=(29, 62) map 1/0 pos(11,23)
+[000472 f=25447] nav walking goal=(29, 62) map 1/0 pos(11,23)
+[000473 f=25495] nav walking goal=(29, 62) map 1/0 pos(11,23)
+[000474 f=25543] nav walking goal=(29, 62) map 1/0 pos(11,23)
+[000475 f=25591] nav blocked goal=(29, 62) map 1/0 pos(11,23)
+[000480 f=25791] battle text -> a
+[000486 f=26148] map 1/0 54x69 pos(11,23) face=up party=1 battle=Y enemy=Weedle Lv3 15/15HP [action] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000487 f=26304] map 1/0 54x69 pos(11,23) face=up party=1 battle=Y enemy=Weedle Lv3 15/15HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> right+down+a
+[000500 f=26785] battle text -> a
+[000510 f=27238] map 1/0 54x69 pos(11,23) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> wait
+[000511 f=27358] map 1/0 54x69 pos(11,23) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(29,62)->15/0 obj=story
+[000512 f=27391] nav walking goal=(29, 62) map 1/0 pos(11,21)
+[000513 f=27439] nav walking goal=(29, 62) map 1/0 pos(11,19)
+[000514 f=27487] nav walking goal=(29, 62) map 1/0 pos(11,17)
+[000515 f=27535] nav walking goal=(29, 62) map 1/0 pos(11,15)
+[000516 f=27583] nav walking goal=(29, 62) map 1/0 pos(11,13)
+[000517 f=27631] nav walking goal=(29, 62) map 1/0 pos(11,11)
+[000518 f=27679] nav walking goal=(29, 62) map 1/0 pos(11,9)
+[000519 f=27727] nav walking goal=(29, 62) map 1/0 pos(11,10)
+[000520 f=27775] nav walking goal=(29, 62) map 1/0 pos(12,10)
+[000521 f=27823] nav walking goal=(29, 62) map 1/0 pos(14,10)
+[000522 f=27871] nav walking goal=(29, 62) map 1/0 pos(16,10)
+[000523 f=27919] nav walking goal=(29, 62) map 1/0 pos(18,10)
+[000524 f=27967] nav walking goal=(29, 62) map 1/0 pos(20,10)
+[000525 f=28015] nav walking goal=(29, 62) map 1/0 pos(20,11)
+[000526 f=28063] nav walking goal=(29, 62) map 1/0 pos(20,13)
+[000527 f=28111] nav walking goal=(29, 62) map 1/0 pos(20,15)
+[000528 f=28159] nav walking goal=(29, 62) map 1/0 pos(20,15)
+[000529 f=28207] nav walking goal=(29, 62) map 1/0 pos(20,15)
+[000530 f=28255] nav walking goal=(29, 62) map 1/0 pos(20,15)
+[000531 f=28303] nav blocked goal=(29, 62) map 1/0 pos(20,15)
+[000540 f=28651] battle text -> a
+[000543 f=28867] map 1/0 54x69 pos(20,15) face=down party=1 battle=Y enemy=Weedle Lv5 20/20HP [action] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000544 f=29023] map 1/0 54x69 pos(20,15) face=down party=1 battle=Y enemy=Weedle Lv5 20/20HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> right+down+a
+[000560 f=29615] battle text -> a
+[000567 f=29987] map 1/0 54x69 pos(20,15) face=down party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_0 dlg=advance bat=attack obj=heal -> wait
+[000568 f=30077] map 1/0 54x69 pos(20,15) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(29,62)->15/0 obj=story
+[000569 f=30110] nav walking goal=(29, 62) map 1/0 pos(20,17)
+[000570 f=30158] nav walking goal=(29, 62) map 1/0 pos(20,19)
+[000571 f=30206] nav walking goal=(29, 62) map 1/0 pos(20,21)
+[000572 f=30254] nav walking goal=(29, 62) map 1/0 pos(20,23)
+[000573 f=30302] nav walking goal=(29, 62) map 1/0 pos(21,23)
+[000574 f=30350] nav walking goal=(29, 62) map 1/0 pos(23,23)
+[000575 f=30398] nav walking goal=(29, 62) map 1/0 pos(25,23)
+[000576 f=30446] nav walking goal=(29, 62) map 1/0 pos(27,23)
+[000577 f=30494] nav walking goal=(29, 62) map 1/0 pos(27,22)
+[000578 f=30542] nav walking goal=(29, 62) map 1/0 pos(27,20)
+[000579 f=30590] nav walking goal=(29, 62) map 1/0 pos(27,18)
+[000580 f=30638] nav walking goal=(29, 62) map 1/0 pos(27,19)
+[000581 f=30686] nav walking goal=(29, 62) map 1/0 pos(28,19)
+[000582 f=30734] nav walking goal=(29, 62) map 1/0 pos(30,19)
+[000583 f=30782] nav walking goal=(29, 62) map 1/0 pos(32,19)
+[000584 f=30830] nav walking goal=(29, 62) map 1/0 pos(34,19)
+[000585 f=30878] nav walking goal=(29, 62) map 1/0 pos(36,19)
+[000586 f=30926] nav walking goal=(29, 62) map 1/0 pos(38,19)
+[000587 f=30974] nav walking goal=(29, 62) map 1/0 pos(40,19)
+[000588 f=31022] nav walking goal=(29, 62) map 1/0 pos(40,20)
+[000589 f=31070] nav walking goal=(29, 62) map 1/0 pos(39,20)
+[000590 f=31118] nav walking goal=(29, 62) map 1/0 pos(39,21)
+[000591 f=31166] nav walking goal=(29, 62) map 1/0 pos(39,23)
+[000592 f=31214] nav walking goal=(29, 62) map 1/0 pos(39,25)
+[000593 f=31262] nav walking goal=(29, 62) map 1/0 pos(39,27)
+[000594 f=31310] nav walking goal=(29, 62) map 1/0 pos(39,29)
+[000595 f=31358] nav walking goal=(29, 62) map 1/0 pos(39,30)
+[000596 f=31406] nav walking goal=(29, 62) map 1/0 pos(39,30)
+[000597 f=31454] nav walking goal=(29, 62) map 1/0 pos(39,30)
+[000598 f=31502] nav walking goal=(29, 62) map 1/0 pos(39,30)
+[000599 f=31550] nav blocked goal=(29, 62) map 1/0 pos(39,30)
+[000600] decisions: jev=75 codi=526
+[000600 f=31602] battle text -> a
+[000610 f=32107] map 1/0 54x69 pos(39,30) face=down party=1 battle=Y enemy=Caterpie Lv4 18/18HP [action] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000611 f=32233] map 1/0 54x69 pos(39,30) face=down party=1 battle=Y enemy=Caterpie Lv4 18/18HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> right+down+a
+[000620 f=32566] battle text -> a
+[000634 f=33167] map 1/0 54x69 pos(39,30) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(29,62)->15/0 obj=story
+[000635 f=33200] nav walking goal=(29, 62) map 1/0 pos(39,32)
+[000636 f=33248] nav walking goal=(29, 62) map 1/0 pos(39,34)
+[000637 f=33296] nav walking goal=(29, 62) map 1/0 pos(39,36)
+[000638 f=33344] nav walking goal=(29, 62) map 1/0 pos(39,37)
+[000639 f=33392] nav walking goal=(29, 62) map 1/0 pos(39,37)
+[000640 f=33440] nav walking goal=(29, 62) map 1/0 pos(39,37)
+[000641 f=33488] nav walking goal=(29, 62) map 1/0 pos(39,37)
+[000642 f=33536] nav blocked goal=(29, 62) map 1/0 pos(39,37)
+[000653 f=34063] map 1/0 54x69 pos(39,37) face=down party=1 battle=Y enemy=Caterpie Lv5 20/20HP [action] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000654 f=34219] map 1/0 54x69 pos(39,37) face=down party=1 battle=Y enemy=Caterpie Lv5 20/20HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> right+down+a
+[000660 f=34441] battle text -> a
+[000677 f=35213] map 1/0 54x69 pos(39,37) face=down party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_0 dlg=advance bat=attack obj=heal -> wait
+[000678 f=35303] map 1/0 54x69 pos(39,37) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(29,62)->15/0 obj=heal
+[000679 f=35336] nav walking goal=(29, 62) map 1/0 pos(39,39)
+[000680 f=35384] nav walking goal=(29, 62) map 1/0 pos(39,41)
+[000681 f=35432] nav walking goal=(29, 62) map 1/0 pos(39,43)
+[000682 f=35480] nav walking goal=(29, 62) map 1/0 pos(39,45)
+[000683 f=35528] nav walking goal=(29, 62) map 1/0 pos(39,47)
+[000684 f=35576] nav walking goal=(29, 62) map 1/0 pos(39,49)
+[000685 f=35624] nav walking goal=(29, 62) map 1/0 pos(39,50)
+[000686 f=35672] nav walking goal=(29, 62) map 1/0 pos(39,50)
+[000687 f=35720] nav walking goal=(29, 62) map 1/0 pos(39,50)
+[000688 f=35768] nav walking goal=(29, 62) map 1/0 pos(39,50)
+[000689 f=35816] nav blocked goal=(29, 62) map 1/0 pos(39,50)
+[000697 f=36364] map 1/0 54x69 pos(39,50) face=down party=1 battle=Y enemy=Weedle Lv5 19/19HP [action] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=grind -> a
+[000698 f=36520] map 1/0 54x69 pos(39,50) face=down party=1 battle=Y enemy=Weedle Lv5 19/19HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> right+down+a
+[000700 f=36594] battle text -> a
+[000720 f=37334] battle text -> a
+[000721 f=37454] map 1/0 54x69 pos(39,50) face=down party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_0 dlg=advance bat=attack obj=story -> wait
+[000722 f=37574] map 1/0 54x69 pos(39,50) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(29,62)->15/0 obj=heal
+[000723 f=37607] nav walking goal=(29, 62) map 1/0 pos(39,52)
+[000724 f=37787] nav walking goal=(29, 62) map 1/0 pos(39,54)
+[000725 f=37967] nav walking goal=(29, 62) map 1/0 pos(39,56)
+[000726 f=38147] nav walking goal=(29, 62) map 1/0 pos(39,58)
+[000727 f=38294] nav blocked goal=(29, 62) map 1/0 pos(39,58)
+[000728 f=38391] map 1/0 54x69 pos(39,58) face=down party=1 battle=N dialog='CONSELLS PER A ENTRENADORS?Si el teu equ' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=heal -> a
+[000729 f=38533] map 1/0 54x69 pos(39,58) face=down party=1 battle=N dialog='CONSELLS PER A ENTRENADORS?Si el teu equ' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=heal -> a
+[000730 f=38645] map 1/0 54x69 pos(39,58) face=down party=1 battle=N dialog='CONSELLS PER A ENTRENADORS?Si el teu equ' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=heal -> a
+[000731 f=38757] map 1/0 54x69 pos(39,58) face=down party=1 battle=N dialog='CONSELLS PER A ENTRENADORS?Si el teu equ' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=heal -> a
+[000732 f=38877] map 1/0 54x69 pos(39,58) face=down party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_0 dlg=advance bat=attack obj=heal -> wait
+[000733 f=38997] map 1/0 54x69 pos(39,58) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(29,62)->15/0 obj=heal
+[000734 f=39030] nav walking goal=(29, 62) map 1/0 pos(38,58)
+[000735 f=39078] nav walking goal=(29, 62) map 1/0 pos(38,58)
+[000736 f=39126] nav walking goal=(29, 62) map 1/0 pos(38,58)
+[000737 f=39174] nav walking goal=(29, 62) map 1/0 pos(38,58)
+[000738 f=39222] nav blocked goal=(29, 62) map 1/0 pos(38,58)
+[000740 f=39311] battle text -> a
+[000750 f=39756] map 1/0 54x69 pos(38,58) face=down party=1 battle=Y enemy=Caterpie Lv3 15/15HP [action] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000751 f=39912] map 1/0 54x69 pos(38,58) face=down party=1 battle=Y enemy=Caterpie Lv3 15/15HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=story -> right+down+a
+[000760 f=40245] battle text -> a
+[000774 f=40816] map 1/0 54x69 pos(38,58) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(29,62)->15/0 obj=heal
+[000775 f=40849] nav walking goal=(29, 62) map 1/0 pos(38,60)
+[000776 f=40897] nav walking goal=(29, 62) map 1/0 pos(38,61)
+[000777 f=40945] nav walking goal=(29, 62) map 1/0 pos(36,61)
+[000778 f=40993] nav walking goal=(29, 62) map 1/0 pos(34,61)
+[000779 f=41041] nav walking goal=(29, 62) map 1/0 pos(32,61)
+[000780 f=41089] nav walking goal=(29, 62) map 1/0 pos(30,61)
+[000781 f=41137] nav walking goal=(29, 62) map 1/0 pos(28,61)
+[000782 f=41185] nav walking goal=(29, 62) map 1/0 pos(29,61)
+[000783 f=41233] nav walking goal=(29, 62) map 1/0 pos(29,62)
+[000784 f=41318] nav warped goal=(29, 62) map 15/0 pos(7,2)
+[000785 f=41453] map 15/0 15x12 pos(7,2) face=down party=1 battle=N dialog='' | mode=overworld ow=down nav=none dlg=advance bat=attack obj=heal -> wait
+[000786 f=41543] map 15/0 15x12 pos(7,2) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(7,10)->3/20 obj=heal
+[000787 f=41576] nav walking goal=(7, 10) map 15/0 pos(7,4)
+[000788 f=41624] nav walking goal=(7, 10) map 15/0 pos(7,6)
+[000789 f=41672] nav walking goal=(7, 10) map 15/0 pos(7,8)
+[000790 f=41720] nav walking goal=(7, 10) map 15/0 pos(7,10)
+[000791 f=41805] nav warped goal=(7, 10) map 3/20 pos(5,51)
+[000792 f=41910] map 3/20 24x80 pos(5,51) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(11,79)->3/1 obj=story
+[000793 f=41943] nav walking goal=(11, 79) map 3/20 pos(5,54)
+[000794 f=41991] nav walking goal=(11, 79) map 3/20 pos(6,54)
+[000795 f=42039] nav walking goal=(11, 79) map 3/20 pos(8,54)
+[000796 f=42087] nav walking goal=(11, 79) map 3/20 pos(10,54)
+[000797 f=42135] nav walking goal=(11, 79) map 3/20 pos(12,54)
+[000798 f=42183] nav walking goal=(11, 79) map 3/20 pos(12,55)
+[000799 f=42231] nav walking goal=(11, 79) map 3/20 pos(12,57)
+[000800] decisions: jev=98 codi=703
+[000800 f=42279] nav walking goal=(11, 79) map 3/20 pos(12,59)
+[000801 f=42327] nav walking goal=(11, 79) map 3/20 pos(12,61)
+[000802 f=42375] nav walking goal=(11, 79) map 3/20 pos(12,62)
+[000803 f=42423] nav walking goal=(11, 79) map 3/20 pos(10,62)
+[000804 f=42471] nav walking goal=(11, 79) map 3/20 pos(8,62)
+[000805 f=42519] nav walking goal=(11, 79) map 3/20 pos(6,62)
+[000806 f=42567] nav walking goal=(11, 79) map 3/20 pos(4,62)
+[000807 f=42615] nav walking goal=(11, 79) map 3/20 pos(4,63)
+[000808 f=42663] nav walking goal=(11, 79) map 3/20 pos(4,65)
+[000809 f=42711] nav walking goal=(11, 79) map 3/20 pos(4,67)
+[000810 f=42759] nav walking goal=(11, 79) map 3/20 pos(4,69)
+[000811 f=42807] nav walking goal=(11, 79) map 3/20 pos(5,69)
+[000812 f=42855] nav walking goal=(11, 79) map 3/20 pos(7,69)
+[000813 f=42903] nav walking goal=(11, 79) map 3/20 pos(9,69)
+[000814 f=42951] nav walking goal=(11, 79) map 3/20 pos(9,70)
+[000815 f=42999] nav walking goal=(11, 79) map 3/20 pos(9,72)
+[000816 f=43047] nav walking goal=(11, 79) map 3/20 pos(9,74)
+[000817 f=43095] nav walking goal=(11, 79) map 3/20 pos(9,76)
+[000818 f=43143] nav walking goal=(11, 79) map 3/20 pos(9,78)
+[000819 f=43191] nav walking goal=(11, 79) map 3/1 pos(21,0)
+[000820 f=43206] nav warped goal=(11, 79) map 3/1 pos(21,0)
+[000821 f=43401] map 3/1 48x40 pos(21,0) face=down party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_0 dlg=advance bat=attack obj=story -> wait
+[000822 f=43521] map 3/1 48x40 pos(21,0) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(26,26)->5/4 obj=explore
+[000823 f=43554] nav walking goal=(26, 26) map 3/1 pos(21,2)
+[000824 f=43602] nav walking goal=(26, 26) map 3/1 pos(21,4)
+[000825 f=43650] nav walking goal=(26, 26) map 3/1 pos(21,5)
+[000826 f=43698] nav walking goal=(26, 26) map 3/1 pos(23,5)
+[000827 f=43746] nav walking goal=(26, 26) map 3/1 pos(23,6)
+[000828 f=43794] nav walking goal=(26, 26) map 3/1 pos(23,8)
+[000829 f=43842] nav walking goal=(26, 26) map 3/1 pos(22,8)
+[000830 f=43890] nav walking goal=(26, 26) map 3/1 pos(22,9)
+[000831 f=43938] nav walking goal=(26, 26) map 3/1 pos(22,11)
+[000832 f=43986] nav walking goal=(26, 26) map 3/1 pos(22,13)
+[000833 f=44034] nav walking goal=(26, 26) map 3/1 pos(22,15)
+[000834 f=44082] nav walking goal=(26, 26) map 3/1 pos(22,17)
+[000835 f=44130] nav walking goal=(26, 26) map 3/1 pos(22,19)
+[000836 f=44178] nav walking goal=(26, 26) map 3/1 pos(22,21)
+[000837 f=44226] nav walking goal=(26, 26) map 3/1 pos(22,23)
+[000838 f=44274] nav walking goal=(26, 26) map 3/1 pos(22,25)
+[000839 f=44322] nav walking goal=(26, 26) map 3/1 pos(22,27)
+[000840 f=44370] nav walking goal=(26, 26) map 3/1 pos(23,27)
+[000841 f=44418] nav walking goal=(26, 26) map 3/1 pos(25,27)
+[000842 f=44466] nav walking goal=(26, 26) map 3/1 pos(27,27)
+[000843 f=44514] nav walking goal=(26, 26) map 3/1 pos(26,27)
+[000844 f=44562] nav walking goal=(26, 26) map 3/1 pos(26,26)
+[000845 f=44647] nav warped goal=(26, 26) map 5/4 pos(7,8)
+[000846 f=44782] map 5/4 15x10 pos(7,8) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(1,6)->5/5 obj=story
+[000847 f=44815] nav walking goal=(1, 6) map 5/4 pos(7,6)
+[000848 f=44863] nav walking goal=(1, 6) map 5/4 pos(6,6)
+[000849 f=44911] nav walking goal=(1, 6) map 5/4 pos(4,6)
+[000850 f=44959] nav walking goal=(1, 6) map 5/4 pos(2,6)
+[000851 f=45007] nav walking goal=(1, 6) map 5/4 pos(1,6)
+[000852 f=45037] nav warped goal=(1, 6) map 5/5 pos(1,6)
+[000853 f=45235] map 5/5 15x10 pos(1,6) face=down party=1 battle=N dialog='' | mode=overworld ow=right nav=warp_0 dlg=advance bat=attack obj=explore -> right
+[000854 f=45347] map 5/5 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000855 f=45459] map 5/5 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000856 f=45571] map 5/5 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000857 f=45713] map 5/5 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000858 f=45825] map 5/5 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000859 f=45967] map 5/5 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000860 f=46139] map 5/5 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000861 f=46251] map 5/5 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000862 f=46363] map 5/5 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000863 f=46505] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000864 f=46617] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000865 f=46729] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000866 f=46871] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000867 f=46983] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000868 f=47125] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000869 f=47237] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000870 f=47349] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000871 f=47461] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000872 f=47603] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000873 f=47715] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000874 f=47827] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000875 f=47939] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000876 f=48081] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000877 f=48223] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000878 f=48335] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000879 f=48447] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000880 f=48559] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000881 f=48671] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000882 f=48783] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000883 f=48895] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000884 f=49007] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000885 f=49149] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000886 f=49261] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000887 f=49373] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000888 f=49515] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000889 f=49627] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000890 f=49739] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000891 f=49851] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000892 f=49963] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000893 f=50105] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000894 f=50217] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000895 f=50359] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000896 f=50501] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000897 f=50613] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000898 f=50785] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000899 f=50897] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000900 f=51039] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000901 f=51151] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000902 f=51293] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000903 f=51405] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000904 f=51547] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000905 f=51689] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000906 f=51831] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000907 f=51943] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000908 f=52055] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000909 f=52197] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000910 f=52309] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000911 f=52451] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000912 f=52593] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000913 f=52735] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000914 f=52847] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000915 f=52989] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000916 f=53101] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000917 f=53243] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000918 f=53355] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000919 f=53467] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000920 f=53609] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000921 f=53721] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000922 f=53833] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000923 f=53945] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000924 f=54087] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000925 f=54229] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000926 f=54341] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000927 f=54483] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000928 f=54595] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000929 f=54707] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000930 f=54819] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000931 f=54931] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000932 f=55043] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000933 f=55155] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000934 f=55267] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000935 f=55409] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000936 f=55521] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000937 f=55663] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000938 f=55775] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000939 f=55887] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000940 f=55999] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000941 f=56111] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000942 f=56223] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000943 f=56365] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000944 f=56477] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000945 f=56619] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000946 f=56761] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000947 f=56873] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000948 f=56985] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000949 f=57127] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000950 f=57239] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000951 f=57351] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000952 f=57463] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000953 f=57665] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000954 f=57807] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000955 f=57919] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000956 f=58031] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000957 f=58143] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000958 f=58255] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000959 f=58367] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000960 f=58479] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000961 f=58591] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000962 f=58703] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000963 f=58815] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000964 f=58957] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000965 f=59069] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000966 f=59181] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000967 f=59293] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000968 f=59405] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000969 f=59547] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000970 f=59659] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000971 f=59771] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000972 f=59883] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000973 f=59995] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000974 f=60137] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000975 f=60249] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000976 f=60361] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000977 f=60503] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000978 f=60615] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000979 f=60727] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000980 f=60839] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000981 f=60951] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000982 f=61153] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000983 f=61295] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000984 f=61407] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000985 f=61519] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000986 f=61631] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000987 f=61773] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000988 f=61885] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000989 f=61997] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000990 f=62109] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000991 f=62251] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000992 f=62363] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000993 f=62505] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000994 f=62617] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000995 f=62729] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000996 f=62841] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000997 f=62953] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000998 f=63065] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000999 f=63177] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001000] decisions: jev=248 codi=753
+[001000 f=63289] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001001 f=63431] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001002 f=63543] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001003 f=63655] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001004 f=63767] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001005 f=63909] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001006 f=64021] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001007 f=64133] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001008 f=64245] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001009 f=64387] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001010 f=64499] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001011 f=64641] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001012 f=64753] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001013 f=64895] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001014 f=65007] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001015 f=65149] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001016 f=65261] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001017 f=65373] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001018 f=65485] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001019 f=65597] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001020 f=65709] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001021 f=65821] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001022 f=65963] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001023 f=66075] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001024 f=66217] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001025 f=66329] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001026 f=66441] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001027 f=66553] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001028 f=66695] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001029 f=66807] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001030 f=66949] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001031 f=67061] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001032 f=67203] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001033 f=67315] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001034 f=67457] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001035 f=67629] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001036 f=67741] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001037 f=67883] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001038 f=67995] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001039 f=68137] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001040 f=68249] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001041 f=68391] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001042 f=68503] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001043 f=68645] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001044 f=68757] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001045 f=68869] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001046 f=68981] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001047 f=69093] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001048 f=69205] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001049 f=69317] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001050 f=69459] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001051 f=69571] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001052 f=69713] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001053 f=69825] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001054 f=69967] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001055 f=70079] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001056 f=70221] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001057 f=70333] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001058 f=70445] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001059 f=70557] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001060 f=70669] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001061 f=70781] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001062 f=70893] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001063 f=71005] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001064 f=71117] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001065 f=71229] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001066 f=71371] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001067 f=71483] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001068 f=71655] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001069 f=71767] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001070 f=71879] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001071 f=71991] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001072 f=72133] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001073 f=72245] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001074 f=72357] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001075 f=72469] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001076 f=72611] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001077 f=72723] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001078 f=72865] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001079 f=72977] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001080 f=73119] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001081 f=73231] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[001082 f=73373] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='T’explicaré com funciona
+el CLUB SENSE F' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001083 f=73485] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001084 f=73627] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001085 f=73739] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[001086 f=73881] map 5/5 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+
+aturat per l'usuari

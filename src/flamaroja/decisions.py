@@ -145,18 +145,21 @@ QUEST_NORTH = (
 )
 
 
-def nav_options(gs: GameState | None, came_from: tuple[int, int] | None = None) -> list:
+def nav_options(gs: GameState | None, came_from: tuple[int, int] | None = None, world: World | None = None) -> list:
     """Sortides usables del mapa, sense la del mapa d'on venim (evita el ping-pong casa/exterior)."""
     warps = [w for w in (gs.warps if gs is not None else []) if w.usable]
     if gs is not None:
-        # ponytail: els flags d'objecte amagat no funcionen; boles nomes sense equip, Oak nomes amb el paquet
-        warps = [w for w in warps if not w.act or (gs.has_parcel and (gs.map_bank, gs.map_number) == (4, 3) if "Oak (" in w.label else not gs.party)]
+        # ponytail: els flags d'objecte amagat no funcionen; boles nomes sense equip, Oak nomes amb el paquet, Brock nomes al seu gimnas
+        here = (gs.map_bank, gs.map_number)
+        warps = [w for w in warps if not w.act or (gs.has_parcel and here == (4, 3) if "Oak (" in w.label else here == (6, 2) and not gs.badges if "Brock" in w.label else not gs.party)]
+    if gs is not None and world is not None:
+        warps = [w for w in warps if not world.banned((gs.map_bank, gs.map_number), w.x, w.y)] or warps
     kept = [w for w in warps if (w.dest_bank, w.dest_map) != came_from]
     return kept or warps
 
 
 def build_questions(gs: GameState | None = None, came_from: tuple[int, int] | None = None, world: World | None = None) -> dict[str, Choice | Noul | Score]:
-    warps = nav_options(gs, came_from)
+    warps = nav_options(gs, came_from, world)
     nav_criteria: dict[str, str] = {
         "none": "No warp destination in this map; movement will be handled directly",
     }

@@ -38,6 +38,7 @@ OBJECT_LABELS = {
     0x5C: "Poké Ball on Oak's table holding a starter Pokémon (pick one)",
     0x47: "Professor Oak (talk to deliver the parcel)",
     0x58: "Mom (talk to heal the team)",
+    0x50: "Brock, Pewter Gym leader (talk to him to start the gym battle)",
 }
 SB1_FLAGS = 0x0EE0  # flags del saveblock1 (FRLG); un object amb flag activa esta amagat
 
@@ -243,7 +244,7 @@ class GameState:
     battle_outcome: int = 0         # gBattleOutcome: 1 guanyat, 2 perdut, 4 fugit
     has_parcel: bool = False       # Oak's Parcel (item 349) a la butxaca d'objectes clau
     badges: int = 0               # medalles de gimnas (flags de sistema 0x820..0x827)
-    parcel_delivered: bool = False  # el paquet ja s'ha vist i ja no hi es (el posa cli.py, es memoria de sessio)
+    parcel_delivered: bool = False  # Pokedex rebuda (flag 0x829): Oak la dona en lliurar el paquet
     fading: bool = False
     dialog_text: str = ""
     cmap: CollisionMap | None = None  # mapa de col·lisio actual (None si no hi ha overworld)
@@ -514,6 +515,7 @@ def read_state(emu, frame: int = 0) -> GameState:
     if 0x02000000 <= player_ptr < 0x03010000:
         gs.player_name = decode_text(emu.read_range(player_ptr, 8))
     gs.cmap = read_map(emu)
+    gs.parcel_delivered = _flag_set(emu, 0x829)
     gs.badges = sum(_flag_set(emu, 0x820 + i) for i in range(8))
     gs.facing = read_facing(emu)
     for slot in range(PARTY_SLOTS):

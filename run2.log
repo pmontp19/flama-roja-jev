@@ -1,0 +1,645 @@
+dashboard: http://127.0.0.1:8000
+backend=jev provider=openai model=jev-latest trace=trace2.jsonl
+[000000 f=262] map 3/19 24x40 pos(13,38) face=up party=1 battle=N dialog='MARE? Que bé! Els teus POKéMON i
+tu teni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000001 f=412] map 3/19 24x40 pos(13,38) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(12,0)->3/1 obj=explore
+[000002 f=445] nav walking goal=(12, 0) map 3/19 pos(13,38)
+[000003 f=493] nav walking goal=(12, 0) map 3/19 pos(13,38)
+[000004 f=541] nav walking goal=(12, 0) map 3/19 pos(13,38)
+[000005 f=589] nav blocked goal=(12, 0) map 3/19 pos(13,38)
+[000020 f=1272] map 3/19 24x40 pos(13,38) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(12,0)->3/1 obj=explore
+[000021 f=1305] nav walking goal=(12, 0) map 3/19 pos(13,36)
+[000022 f=1353] nav walking goal=(12, 0) map 3/19 pos(13,34)
+[000023 f=1401] nav walking goal=(12, 0) map 3/19 pos(13,32)
+[000024 f=1449] nav walking goal=(12, 0) map 3/19 pos(12,32)
+[000025 f=1497] nav walking goal=(12, 0) map 3/19 pos(10,32)
+[000026 f=1545] nav walking goal=(12, 0) map 3/19 pos(8,32)
+[000027 f=1593] nav walking goal=(12, 0) map 3/19 pos(8,31)
+[000028 f=1641] nav walking goal=(12, 0) map 3/19 pos(8,29)
+[000029 f=1689] nav walking goal=(12, 0) map 3/19 pos(8,27)
+[000030 f=1737] nav walking goal=(12, 0) map 3/19 pos(9,27)
+[000031 f=1785] nav walking goal=(12, 0) map 3/19 pos(11,27)
+[000032 f=1833] nav walking goal=(12, 0) map 3/19 pos(13,27)
+[000033 f=1881] nav walking goal=(12, 0) map 3/19 pos(13,26)
+[000034 f=1929] nav walking goal=(12, 0) map 3/19 pos(13,24)
+[000035 f=1977] nav walking goal=(12, 0) map 3/19 pos(13,24)
+[000036 f=2025] nav walking goal=(12, 0) map 3/19 pos(13,24)
+[000037 f=2073] nav walking goal=(12, 0) map 3/19 pos(13,24)
+[000038 f=2121] nav blocked goal=(12, 0) map 3/19 pos(13,24)
+[000040 f=2210] battle text -> a
+[000050 f=2685] map 3/19 24x40 pos(13,24) face=up party=1 battle=Y enemy=Pidgey Lv3 15/15HP [action] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=grind -> a
+[000051 f=2871] map 3/19 24x40 pos(13,24) face=up party=1 battle=Y enemy=Pidgey Lv3 15/15HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=grind -> right+down+a
+[000060 f=3204] battle text -> a
+[000074 f=3805] map 3/19 24x40 pos(13,24) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(12,0)->3/1 obj=explore
+[000075 f=3838] nav walking goal=(12, 0) map 3/19 pos(13,22)
+[000076 f=3886] nav walking goal=(12, 0) map 3/19 pos(13,21)
+[000077 f=3934] nav walking goal=(12, 0) map 3/19 pos(11,21)
+[000078 f=3982] nav walking goal=(12, 0) map 3/19 pos(9,21)
+[000079 f=4030] nav walking goal=(12, 0) map 3/19 pos(9,20)
+[000080 f=4078] nav walking goal=(12, 0) map 3/19 pos(9,18)
+[000081 f=4126] nav walking goal=(12, 0) map 3/19 pos(9,16)
+[000082 f=4174] nav walking goal=(12, 0) map 3/19 pos(9,17)
+[000083 f=4222] nav walking goal=(12, 0) map 3/19 pos(10,17)
+[000084 f=4270] nav walking goal=(12, 0) map 3/19 pos(12,17)
+[000085 f=4318] nav walking goal=(12, 0) map 3/19 pos(14,17)
+[000086 f=4366] nav walking goal=(12, 0) map 3/19 pos(16,17)
+[000087 f=4414] nav walking goal=(12, 0) map 3/19 pos(16,16)
+[000088 f=4462] nav walking goal=(12, 0) map 3/19 pos(16,14)
+[000089 f=4510] nav walking goal=(12, 0) map 3/19 pos(16,12)
+[000090 f=4558] nav walking goal=(12, 0) map 3/19 pos(16,10)
+[000091 f=4606] nav walking goal=(12, 0) map 3/19 pos(16,8)
+[000092 f=4654] nav walking goal=(12, 0) map 3/19 pos(16,7)
+[000093 f=4702] nav walking goal=(12, 0) map 3/19 pos(16,7)
+[000094 f=4750] nav walking goal=(12, 0) map 3/19 pos(16,7)
+[000095 f=4798] nav walking goal=(12, 0) map 3/19 pos(16,7)
+[000096 f=4846] nav blocked goal=(12, 0) map 3/19 pos(16,7)
+[000100 f=5009] battle text -> a
+[000108 f=5470] map 3/19 24x40 pos(16,7) face=up party=1 battle=Y enemy=Rattata Lv3 15/15HP [action] dialog='' | mode=battle ow=menu nav=warp_0 dlg=advance bat=attack obj=grind -> a
+[000109 f=5656] map 3/19 24x40 pos(16,7) face=up party=1 battle=Y enemy=Rattata Lv3 15/15HP [move] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=grind -> right+down+a
+[000120 f=6063] battle text -> a
+[000132 f=6590] map 3/19 24x40 pos(16,7) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(12,0)->3/1 obj=explore
+[000133 f=6623] nav walking goal=(12, 0) map 3/19 pos(16,5)
+[000134 f=6671] nav walking goal=(12, 0) map 3/19 pos(16,3)
+[000135 f=6719] nav walking goal=(12, 0) map 3/19 pos(16,2)
+[000136 f=6767] nav walking goal=(12, 0) map 3/19 pos(14,2)
+[000137 f=6815] nav walking goal=(12, 0) map 3/19 pos(12,2)
+[000138 f=6863] nav walking goal=(12, 0) map 3/19 pos(12,1)
+[000139 f=6911] nav walking goal=(12, 0) map 3/1 pos(24,39)
+[000140 f=6926] nav warped goal=(12, 0) map 3/1 pos(24,39)
+[000141 f=7031] map 3/1 48x40 pos(24,39) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(23,0)->3/20 obj=explore
+[000142 f=7064] nav walking goal=(23, 0) map 3/1 pos(24,37)
+[000143 f=7112] nav walking goal=(23, 0) map 3/1 pos(24,35)
+[000144 f=7160] nav walking goal=(23, 0) map 3/1 pos(24,33)
+[000145 f=7208] nav walking goal=(23, 0) map 3/1 pos(24,31)
+[000146 f=7256] nav walking goal=(23, 0) map 3/1 pos(23,31)
+[000147 f=7304] nav walking goal=(23, 0) map 3/1 pos(21,31)
+[000148 f=7352] nav walking goal=(23, 0) map 3/1 pos(21,30)
+[000149 f=7400] nav walking goal=(23, 0) map 3/1 pos(21,28)
+[000150 f=7448] nav walking goal=(23, 0) map 3/1 pos(21,26)
+[000151 f=7496] nav walking goal=(23, 0) map 3/1 pos(21,24)
+[000152 f=7544] nav walking goal=(23, 0) map 3/1 pos(21,22)
+[000153 f=7592] nav walking goal=(23, 0) map 3/1 pos(21,20)
+[000154 f=7640] nav walking goal=(23, 0) map 3/1 pos(21,18)
+[000155 f=7688] nav walking goal=(23, 0) map 3/1 pos(21,16)
+[000156 f=7736] nav walking goal=(23, 0) map 3/1 pos(21,14)
+[000157 f=7784] nav walking goal=(23, 0) map 3/1 pos(21,12)
+[000158 f=7832] nav walking goal=(23, 0) map 3/1 pos(21,10)
+[000159 f=7880] nav walking goal=(23, 0) map 3/1 pos(21,8)
+[000160 f=7928] nav walking goal=(23, 0) map 3/1 pos(21,7)
+[000161 f=7976] nav walking goal=(23, 0) map 3/1 pos(23,7)
+[000162 f=8024] nav walking goal=(23, 0) map 3/1 pos(23,6)
+[000163 f=8072] nav walking goal=(23, 0) map 3/1 pos(23,4)
+[000164 f=8120] nav walking goal=(23, 0) map 3/1 pos(23,2)
+[000165 f=8135] nav blocked goal=(23, 0) map 3/1 pos(23,2)
+[000166 f=8322] map 3/1 48x40 pos(23,2) face=up party=1 battle=N dialog='CONSELLS PER A ENTRENADORS?Captura tots ' | mode=dialog ow=interact nav=warp_5 dlg=advance bat=attack obj=explore -> a
+[000167 f=8524] map 3/1 48x40 pos(23,2) face=up party=1 battle=N dialog='CONSELLS PER A ENTRENADORS?Captura tots ' | mode=dialog ow=interact nav=warp_5 dlg=advance bat=attack obj=story -> a
+[000168 f=8666] map 3/1 48x40 pos(23,2) face=up party=1 battle=N dialog='CONSELLS PER A ENTRENADORS?Captura tots ' | mode=dialog ow=interact nav=warp_5 dlg=advance bat=attack obj=explore -> a
+[000169 f=8778] map 3/1 48x40 pos(23,2) face=up party=1 battle=N dialog='CONSELLS PER A ENTRENADORS?Captura tots ' | mode=dialog ow=interact nav=warp_5 dlg=advance bat=attack obj=explore -> a
+[000170 f=8988] map 3/1 48x40 pos(23,2) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(23,0)->3/20 obj=explore
+[000171 f=9021] nav walking goal=(23, 0) map 3/1 pos(22,2)
+[000172 f=9069] nav walking goal=(23, 0) map 3/1 pos(22,1)
+[000173 f=9117] nav walking goal=(23, 0) map 3/20 pos(10,79)
+[000174 f=9132] nav warped goal=(23, 0) map 3/20 pos(10,79)
+[000175 f=9297] map 3/20 24x80 pos(10,79) face=up party=1 battle=N dialog='' | mode=overworld ow=up nav=warp_10 dlg=advance bat=attack obj=explore -> wait
+[000176 f=9417] map 3/20 24x80 pos(10,79) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(18,46)->15/2 obj=explore
+[000177 f=9450] nav walking goal=(18, 46) map 3/20 pos(10,77)
+[000178 f=9498] nav walking goal=(18, 46) map 3/20 pos(10,75)
+[000179 f=9546] nav walking goal=(18, 46) map 3/20 pos(10,73)
+[000180 f=9594] nav walking goal=(18, 46) map 3/20 pos(10,71)
+[000181 f=9642] nav walking goal=(18, 46) map 3/20 pos(10,69)
+[000182 f=9657] nav blocked goal=(18, 46) map 3/20 pos(10,69)
+[000183 f=9882] map 3/20 24x80 pos(10,69) face=up party=1 battle=N dialog='' | mode=overworld ow=left nav=warp_10 dlg=advance bat=attack obj=explore -> wait
+[000184 f=10002] map 3/20 24x80 pos(10,69) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(5,51)->15/0 obj=explore
+[000185 f=10035] nav walking goal=(5, 51) map 3/20 pos(10,67)
+[000186 f=10083] nav walking goal=(5, 51) map 3/20 pos(9,67)
+[000187 f=10131] nav walking goal=(5, 51) map 3/20 pos(7,67)
+[000188 f=10179] nav walking goal=(5, 51) map 3/20 pos(5,67)
+[000189 f=10227] nav walking goal=(5, 51) map 3/20 pos(5,66)
+[000190 f=10275] nav walking goal=(5, 51) map 3/20 pos(5,64)
+[000191 f=10323] nav walking goal=(5, 51) map 3/20 pos(5,62)
+[000192 f=10371] nav walking goal=(5, 51) map 3/20 pos(5,60)
+[000193 f=10419] nav walking goal=(5, 51) map 3/20 pos(5,58)
+[000194 f=10467] nav walking goal=(5, 51) map 3/20 pos(5,56)
+[000195 f=10515] nav walking goal=(5, 51) map 3/20 pos(6,56)
+[000196 f=10563] nav walking goal=(5, 51) map 3/20 pos(8,56)
+[000197 f=10611] nav walking goal=(5, 51) map 3/20 pos(10,56)
+[000198 f=10659] nav walking goal=(5, 51) map 3/20 pos(12,56)
+[000199 f=10707] nav walking goal=(5, 51) map 3/20 pos(12,55)
+[000200] decisions: jev=19 codi=182
+[000200 f=10755] nav walking goal=(5, 51) map 3/20 pos(12,53)
+[000201 f=10803] nav walking goal=(5, 51) map 3/20 pos(11,53)
+[000202 f=10851] nav walking goal=(5, 51) map 3/20 pos(9,53)
+[000203 f=10899] nav walking goal=(5, 51) map 3/20 pos(7,53)
+[000204 f=10947] nav walking goal=(5, 51) map 3/20 pos(7,52)
+[000205 f=10995] nav walking goal=(5, 51) map 3/20 pos(6,52)
+[000206 f=11043] nav walking goal=(5, 51) map 3/20 pos(4,52)
+[000207 f=11091] nav walking goal=(5, 51) map 3/20 pos(5,52)
+[000208 f=11139] nav walking goal=(5, 51) map 3/20 pos(5,51)
+[000209 f=11169] nav warped goal=(5, 51) map 15/0 pos(7,10)
+[000210 f=11274] map 15/0 15x12 pos(7,10) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(7,1)->1/0 obj=explore
+[000211 f=11307] nav walking goal=(7, 1) map 15/0 pos(7,8)
+[000212 f=11355] nav walking goal=(7, 1) map 15/0 pos(7,6)
+[000213 f=11403] nav walking goal=(7, 1) map 15/0 pos(7,4)
+[000214 f=11451] nav walking goal=(7, 1) map 15/0 pos(7,2)
+[000215 f=11499] nav walking goal=(7, 1) map 15/0 pos(7,1)
+[000216 f=11559] nav warped goal=(7, 1) map 1/0 pos(29,62)
+[000217 f=11724] map 1/0 54x69 pos(29,62) face=up party=1 battle=N dialog='' | mode=overworld ow=up nav=warp_2 dlg=advance bat=attack obj=story -> wait
+[000218 f=11814] map 1/0 54x69 pos(29,62) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(5,9)->15/3 obj=story
+[000219 f=11847] nav walking goal=(5, 9) map 1/0 pos(29,60)
+[000220 f=11895] nav walking goal=(5, 9) map 1/0 pos(29,59)
+[000221 f=11943] nav walking goal=(5, 9) map 1/0 pos(31,59)
+[000222 f=11991] nav walking goal=(5, 9) map 1/0 pos(31,58)
+[000223 f=12039] nav walking goal=(5, 9) map 1/0 pos(31,56)
+[000224 f=12087] nav walking goal=(5, 9) map 1/0 pos(31,54)
+[000225 f=12135] nav walking goal=(5, 9) map 1/0 pos(31,55)
+[000226 f=12183] nav walking goal=(5, 9) map 1/0 pos(32,55)
+[000227 f=12231] nav walking goal=(5, 9) map 1/0 pos(33,55)
+[000228 f=12279] nav walking goal=(5, 9) map 1/0 pos(33,55)
+[000229 f=12327] nav walking goal=(5, 9) map 1/0 pos(33,55)
+[000230 f=12375] nav walking goal=(5, 9) map 1/0 pos(33,55)
+[000231 f=12423] nav blocked goal=(5, 9) map 1/0 pos(33,55)
+[000240 f=12771] battle text -> a
+[000242 f=12920] map 1/0 54x69 pos(33,55) face=right party=1 battle=Y enemy=Weedle Lv4 18/18HP [action] dialog='' | mode=battle ow=none nav=warp_0 dlg=advance bat=attack obj=grind -> a
+[000243 f=13076] map 1/0 54x69 pos(33,55) face=right party=1 battle=Y enemy=Weedle Lv4 18/18HP [move] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> right+down+a
+[000260 f=13705] battle text -> a
+[000266 f=13980] map 1/0 54x69 pos(33,55) face=right party=1 battle=N dialog='' | mode=overworld nav_goal=warp(4,9)->15/3 obj=explore
+[000267 f=14013] nav walking goal=(4, 9) map 1/0 pos(35,55)
+[000268 f=14061] nav walking goal=(4, 9) map 1/0 pos(37,55)
+[000269 f=14109] nav walking goal=(4, 9) map 1/0 pos(39,55)
+[000270 f=14157] nav walking goal=(4, 9) map 1/0 pos(39,54)
+[000271 f=14205] nav walking goal=(4, 9) map 1/0 pos(39,53)
+[000272 f=14253] nav walking goal=(4, 9) map 1/0 pos(39,53)
+[000273 f=14301] nav walking goal=(4, 9) map 1/0 pos(39,53)
+[000274 f=14349] nav walking goal=(4, 9) map 1/0 pos(39,53)
+[000275 f=14397] nav blocked goal=(4, 9) map 1/0 pos(39,53)
+[000280 f=14597] battle text -> a
+[000286 f=14894] map 1/0 54x69 pos(39,53) face=up party=1 battle=Y enemy=Caterpie Lv4 18/18HP [action] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> a
+[000287 f=15050] map 1/0 54x69 pos(39,53) face=up party=1 battle=Y enemy=Caterpie Lv4 18/18HP [move] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> right+down+a
+[000300 f=15531] battle text -> a
+[000310 f=15984] map 1/0 54x69 pos(39,53) face=up party=1 battle=N dialog='' | mode=overworld ow=up nav=warp_2 dlg=advance bat=attack obj=explore -> wait
+[000311 f=16074] map 1/0 54x69 pos(39,53) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(4,9)->15/3 obj=explore
+[000312 f=16107] nav walking goal=(4, 9) map 1/0 pos(39,51)
+[000313 f=16155] nav walking goal=(4, 9) map 1/0 pos(39,49)
+[000314 f=16203] nav walking goal=(4, 9) map 1/0 pos(39,47)
+[000315 f=16251] nav walking goal=(4, 9) map 1/0 pos(39,45)
+[000316 f=16299] nav walking goal=(4, 9) map 1/0 pos(39,43)
+[000317 f=16347] nav walking goal=(4, 9) map 1/0 pos(39,42)
+[000318 f=16395] nav walking goal=(4, 9) map 1/0 pos(39,42)
+[000319 f=16443] nav walking goal=(4, 9) map 1/0 pos(39,42)
+[000320 f=16491] nav walking goal=(4, 9) map 1/0 pos(39,42)
+[000321 f=16539] nav blocked goal=(4, 9) map 1/0 pos(39,42)
+[000332 f=17036] map 1/0 54x69 pos(39,42) face=up party=1 battle=Y enemy=Caterpie Lv4 18/18HP [action] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=story -> a
+[000333 f=17192] map 1/0 54x69 pos(39,42) face=up party=1 battle=Y enemy=Caterpie Lv4 18/18HP [move] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> right+down+a
+[000340 f=17451] battle text -> a
+[000356 f=18126] map 1/0 54x69 pos(39,42) face=up party=1 battle=N dialog='' | mode=overworld ow=up nav=warp_2 dlg=advance bat=attack obj=explore -> wait
+[000357 f=18216] map 1/0 54x69 pos(39,42) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(4,9)->15/3 obj=explore
+[000358 f=18249] nav walking goal=(4, 9) map 1/0 pos(39,40)
+[000359 f=18297] nav walking goal=(4, 9) map 1/0 pos(39,38)
+[000360 f=18345] nav walking goal=(4, 9) map 1/0 pos(39,36)
+[000361 f=18393] nav walking goal=(4, 9) map 1/0 pos(39,34)
+[000362 f=18441] nav walking goal=(4, 9) map 1/0 pos(39,33)
+[000363 f=18489] nav walking goal=(4, 9) map 1/0 pos(39,33)
+[000364 f=18537] nav walking goal=(4, 9) map 1/0 pos(39,33)
+[000365 f=18585] nav walking goal=(4, 9) map 1/0 pos(39,33)
+[000366 f=18633] nav blocked goal=(4, 9) map 1/0 pos(39,33)
+[000377 f=19130] map 1/0 54x69 pos(39,33) face=up party=1 battle=Y enemy=Weedle Lv5 19/19HP [action] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> a
+[000378 f=19346] map 1/0 54x69 pos(39,33) face=up party=1 battle=Y enemy=Weedle Lv5 19/19HP [move] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> right+down+a
+[000380 f=19420] battle text -> a
+[000400] decisions: jev=35 codi=366
+[000400 f=20160] battle text -> a
+[000401 f=20310] map 1/0 54x69 pos(39,33) face=up party=1 battle=N dialog='' | mode=overworld ow=up nav=warp_0 dlg=advance bat=attack obj=explore -> wait
+[000402 f=20400] map 1/0 54x69 pos(39,33) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(4,9)->15/3 obj=explore
+[000403 f=20433] nav walking goal=(4, 9) map 1/0 pos(39,31)
+[000404 f=20481] nav walking goal=(4, 9) map 1/0 pos(39,29)
+[000405 f=20529] nav walking goal=(4, 9) map 1/0 pos(39,27)
+[000406 f=20577] nav walking goal=(4, 9) map 1/0 pos(39,25)
+[000407 f=20625] nav walking goal=(4, 9) map 1/0 pos(39,23)
+[000408 f=20673] nav walking goal=(4, 9) map 1/0 pos(39,21)
+[000409 f=20721] nav walking goal=(4, 9) map 1/0 pos(39,19)
+[000410 f=20769] nav walking goal=(4, 9) map 1/0 pos(38,19)
+[000411 f=20817] nav walking goal=(4, 9) map 1/0 pos(36,19)
+[000412 f=20865] nav walking goal=(4, 9) map 1/0 pos(34,19)
+[000413 f=20913] nav walking goal=(4, 9) map 1/0 pos(32,19)
+[000414 f=20961] nav walking goal=(4, 9) map 1/0 pos(32,19)
+[000415 f=21009] nav walking goal=(4, 9) map 1/0 pos(32,19)
+[000416 f=21057] nav walking goal=(4, 9) map 1/0 pos(32,19)
+[000417 f=21105] nav blocked goal=(4, 9) map 1/0 pos(32,19)
+[000420 f=21231] battle text -> a
+[000429 f=21639] map 1/0 54x69 pos(32,19) face=left party=1 battle=Y enemy=Caterpie Lv5 20/20HP [action] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> a
+[000430 f=21795] map 1/0 54x69 pos(32,19) face=left party=1 battle=Y enemy=Caterpie Lv5 20/20HP [move] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> right+down+a
+[000440 f=22165] battle text -> a
+[000453 f=22729] map 1/0 54x69 pos(32,19) face=left party=1 battle=N dialog='' | mode=overworld ow=left nav=warp_2 dlg=advance bat=attack obj=story -> wait
+[000454 f=22849] map 1/0 54x69 pos(32,19) face=left party=1 battle=N dialog='' | mode=overworld nav_goal=warp(4,9)->15/3 obj=explore
+[000455 f=22882] nav walking goal=(4, 9) map 1/0 pos(32,20)
+[000456 f=22930] nav walking goal=(4, 9) map 1/0 pos(32,22)
+[000457 f=22978] nav walking goal=(4, 9) map 1/0 pos(32,24)
+[000458 f=23026] nav walking goal=(4, 9) map 1/0 pos(32,23)
+[000459 f=23074] nav walking goal=(4, 9) map 1/0 pos(31,23)
+[000460 f=23122] nav walking goal=(4, 9) map 1/0 pos(29,23)
+[000461 f=23170] nav walking goal=(4, 9) map 1/0 pos(27,23)
+[000462 f=23218] nav walking goal=(4, 9) map 1/0 pos(25,23)
+[000463 f=23266] nav walking goal=(4, 9) map 1/0 pos(23,23)
+[000464 f=23314] nav walking goal=(4, 9) map 1/0 pos(23,22)
+[000465 f=23362] nav walking goal=(4, 9) map 1/0 pos(23,20)
+[000466 f=23410] nav walking goal=(4, 9) map 1/0 pos(23,18)
+[000467 f=23458] nav walking goal=(4, 9) map 1/0 pos(23,16)
+[000468 f=23506] nav walking goal=(4, 9) map 1/0 pos(23,14)
+[000469 f=23554] nav walking goal=(4, 9) map 1/0 pos(23,12)
+[000470 f=23602] nav walking goal=(4, 9) map 1/0 pos(23,10)
+[000471 f=23650] nav walking goal=(4, 9) map 1/0 pos(22,10)
+[000472 f=23698] nav walking goal=(4, 9) map 1/0 pos(20,10)
+[000473 f=23746] nav walking goal=(4, 9) map 1/0 pos(18,10)
+[000474 f=23794] nav walking goal=(4, 9) map 1/0 pos(16,10)
+[000475 f=23842] nav walking goal=(4, 9) map 1/0 pos(14,10)
+[000476 f=23890] nav walking goal=(4, 9) map 1/0 pos(14,11)
+[000477 f=23938] nav walking goal=(4, 9) map 1/0 pos(14,13)
+[000478 f=23986] nav walking goal=(4, 9) map 1/0 pos(14,15)
+[000479 f=24034] nav walking goal=(4, 9) map 1/0 pos(14,17)
+[000480 f=24082] nav walking goal=(4, 9) map 1/0 pos(14,19)
+[000481 f=24130] nav walking goal=(4, 9) map 1/0 pos(14,21)
+[000482 f=24178] nav walking goal=(4, 9) map 1/0 pos(14,23)
+[000483 f=24226] nav walking goal=(4, 9) map 1/0 pos(14,25)
+[000484 f=24274] nav walking goal=(4, 9) map 1/0 pos(14,27)
+[000485 f=24322] nav walking goal=(4, 9) map 1/0 pos(14,27)
+[000486 f=24370] nav walking goal=(4, 9) map 1/0 pos(14,27)
+[000487 f=24418] nav walking goal=(4, 9) map 1/0 pos(14,27)
+[000488 f=24466] nav blocked goal=(4, 9) map 1/0 pos(14,27)
+[000496 f=24984] map 1/0 54x69 pos(14,27) face=down party=1 battle=Y enemy=Kakuna Lv4 17/17HP [action] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> a
+[000497 f=25170] map 1/0 54x69 pos(14,27) face=down party=1 battle=Y enemy=Kakuna Lv4 17/17HP [move] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> right+down+a
+[000500 f=25281] battle text -> a
+[000520 f=26104] map 1/0 54x69 pos(14,27) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(4,9)->15/3 obj=explore
+[000521 f=26137] nav walking goal=(4, 9) map 1/0 pos(13,27)
+[000522 f=26317] nav walking goal=(4, 9) map 1/0 pos(11,27)
+[000523 f=26497] nav walking goal=(4, 9) map 1/0 pos(9,27)
+[000524 f=26677] nav walking goal=(4, 9) map 1/0 pos(7,27)
+[000525 f=26857] nav walking goal=(4, 9) map 1/0 pos(7,26)
+[000526 f=27037] nav walking goal=(4, 9) map 1/0 pos(7,24)
+[000527 f=27217] nav walking goal=(4, 9) map 1/0 pos(7,23)
+[000528 f=27364] nav blocked goal=(4, 9) map 1/0 pos(7,23)
+[000529 f=27491] map 1/0 54x69 pos(7,23) face=up party=1 battle=N dialog='Ei, tu!
+On vas amb tanta pressa?' | mode=dialog ow=interact nav=warp_2 dlg=advance bat=attack obj=story -> a
+[000530 f=27633] map 1/0 54x69 pos(7,23) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_2 dlg=advance bat=attack obj=explore -> a
+[000540 f=28003] battle text -> a
+[000554 f=28626] map 1/0 54x69 pos(7,23) face=up party=1 battle=Y enemy=Weedle Lv9 26/26HP [action] dialog='' | mode=battle ow=interact nav=warp_2 dlg=advance bat=attack obj=grind -> a
+[000555 f=28782] map 1/0 54x69 pos(7,23) face=up party=1 battle=Y enemy=Weedle Lv9 26/26HP [move] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> right+down+a
+[000560 f=28967] battle text -> a
+[000574 f=29560] map 1/0 54x69 pos(7,23) face=up party=1 battle=Y enemy=Weedle Lv9 4/26HP [action] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> a
+[000575 f=29672] map 1/0 54x69 pos(7,23) face=up party=1 battle=Y enemy=Weedle Lv9 4/26HP [move] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> a
+[000580 f=29857] battle text -> a
+[000600] decisions: jev=50 codi=551
+[000600 f=30597] battle text -> a
+[000617 f=31279] map 1/0 54x69 pos(7,23) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(4,9)->15/3 obj=heal
+[000618 f=31312] nav walking goal=(4, 9) map 1/0 pos(6,23)
+[000619 f=31360] nav walking goal=(4, 9) map 1/0 pos(6,22)
+[000620 f=31408] nav walking goal=(4, 9) map 1/0 pos(6,20)
+[000621 f=31456] nav walking goal=(4, 9) map 1/0 pos(6,18)
+[000622 f=31504] nav walking goal=(4, 9) map 1/0 pos(6,16)
+[000623 f=31552] nav walking goal=(4, 9) map 1/0 pos(6,14)
+[000624 f=31600] nav walking goal=(4, 9) map 1/0 pos(6,13)
+[000625 f=31615] nav blocked goal=(4, 9) map 1/0 pos(6,13)
+[000626 f=31742] map 1/0 54x69 pos(6,13) face=up party=1 battle=N dialog='Estàs eixint del BOSC VERD
+CIUTAT GRISEN' | mode=dialog ow=right nav=warp_2 dlg=advance bat=attack obj=story -> a
+[000627 f=31854] map 1/0 54x69 pos(6,13) face=up party=1 battle=N dialog='Estàs eixint del BOSC VERD
+CIUTAT GRISEN' | mode=dialog ow=up nav=warp_2 dlg=advance bat=attack obj=story -> a
+[000628 f=31974] map 1/0 54x69 pos(6,13) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_2 dlg=advance bat=attack obj=story -> wait
+[000629 f=32064] map 1/0 54x69 pos(6,13) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(4,9)->15/3 obj=story
+[000630 f=32097] nav walking goal=(4, 9) map 1/0 pos(5,13)
+[000631 f=32145] nav walking goal=(4, 9) map 1/0 pos(5,13)
+[000632 f=32193] nav walking goal=(4, 9) map 1/0 pos(5,13)
+[000633 f=32241] nav walking goal=(4, 9) map 1/0 pos(5,13)
+[000634 f=32289] nav blocked goal=(4, 9) map 1/0 pos(5,13)
+[000640 f=32526] battle text -> a
+[000645 f=32816] map 1/0 54x69 pos(5,13) face=left party=1 battle=Y enemy=Weedle Lv4 17/17HP [action] dialog='' | mode=battle ow=interact nav=warp_2 dlg=advance bat=attack obj=story -> a
+[000646 f=32972] map 1/0 54x69 pos(5,13) face=left party=1 battle=Y enemy=Weedle Lv4 17/17HP [move] dialog='' | mode=battle ow=none nav=warp_2 dlg=advance bat=attack obj=grind -> right+down+a
+[000660 f=33490] battle text -> a
+[000669 f=33876] map 1/0 54x69 pos(5,13) face=left party=1 battle=N dialog='' | mode=overworld nav_goal=warp(4,9)->15/3 obj=story
+[000670 f=33909] nav walking goal=(4, 9) map 1/0 pos(5,12)
+[000671 f=33957] nav walking goal=(4, 9) map 1/0 pos(5,10)
+[000672 f=34005] nav walking goal=(4, 9) map 1/0 pos(4,10)
+[000673 f=34053] nav walking goal=(4, 9) map 1/0 pos(4,9)
+[000674 f=34083] nav warped goal=(4, 9) map 15/3 pos(7,10)
+[000675 f=34188] map 15/3 15x12 pos(7,10) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(7,1)->3/20 obj=heal
+[000676 f=34221] nav walking goal=(7, 1) map 15/3 pos(7,8)
+[000677 f=34269] nav walking goal=(7, 1) map 15/3 pos(7,6)
+[000678 f=34317] nav walking goal=(7, 1) map 15/3 pos(7,4)
+[000679 f=34365] nav walking goal=(7, 1) map 15/3 pos(7,2)
+[000680 f=34413] nav walking goal=(7, 1) map 15/3 pos(7,1)
+[000681 f=34473] nav warped goal=(7, 1) map 3/20 pos(5,13)
+[000682 f=34608] map 3/20 24x80 pos(5,13) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(11,0)->3/2 obj=explore
+[000683 f=34641] nav walking goal=(11, 0) map 3/20 pos(5,11)
+[000684 f=34689] nav walking goal=(11, 0) map 3/20 pos(5,9)
+[000685 f=34737] nav walking goal=(11, 0) map 3/20 pos(5,7)
+[000686 f=34785] nav walking goal=(11, 0) map 3/20 pos(5,5)
+[000687 f=34833] nav walking goal=(11, 0) map 3/20 pos(5,3)
+[000688 f=34881] nav walking goal=(11, 0) map 3/20 pos(5,2)
+[000689 f=34929] nav walking goal=(11, 0) map 3/20 pos(7,2)
+[000690 f=34977] nav walking goal=(11, 0) map 3/20 pos(7,2)
+[000691 f=35025] nav walking goal=(11, 0) map 3/20 pos(7,2)
+[000692 f=35073] nav walking goal=(11, 0) map 3/20 pos(7,2)
+[000693 f=35121] nav blocked goal=(11, 0) map 3/20 pos(7,2)
+[000700 f=35395] battle text -> a
+[000705 f=35655] map 3/20 24x80 pos(7,2) face=right party=1 battle=Y enemy=Caterpie Lv5 20/20HP [action] dialog='' | mode=battle ow=none nav=warp_8 dlg=advance bat=attack obj=grind -> a
+[000706 f=35811] map 3/20 24x80 pos(7,2) face=right party=1 battle=Y enemy=Caterpie Lv5 20/20HP [move] dialog='' | mode=battle ow=none nav=warp_8 dlg=advance bat=attack obj=grind -> right+down+a
+[000720 f=36329] battle text -> a
+[000729 f=36715] map 3/20 24x80 pos(7,2) face=right party=1 battle=N dialog='' | mode=overworld nav_goal=warp(11,0)->3/2 obj=explore
+[000730 f=36748] nav walking goal=(11, 0) map 3/20 pos(9,2)
+[000731 f=36796] nav walking goal=(11, 0) map 3/20 pos(9,1)
+[000732 f=36844] nav walking goal=(11, 0) map 3/2 pos(21,39)
+[000733 f=36859] nav warped goal=(11, 0) map 3/2 pos(21,39)
+[000734 f=36964] map 3/2 48x40 pos(21,39) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(15,16)->6/2 obj=story
+[000735 f=36997] nav walking goal=(15, 16) map 3/2 pos(21,37)
+[000736 f=37045] nav walking goal=(15, 16) map 3/2 pos(21,35)
+[000737 f=37093] nav walking goal=(15, 16) map 3/2 pos(21,33)
+[000738 f=37141] nav walking goal=(15, 16) map 3/2 pos(21,31)
+[000739 f=37189] nav walking goal=(15, 16) map 3/2 pos(21,29)
+[000740 f=37237] nav walking goal=(15, 16) map 3/2 pos(22,29)
+[000741 f=37285] nav walking goal=(15, 16) map 3/2 pos(22,28)
+[000742 f=37333] nav walking goal=(15, 16) map 3/2 pos(22,26)
+[000743 f=37381] nav walking goal=(15, 16) map 3/2 pos(22,24)
+[000744 f=37429] nav walking goal=(15, 16) map 3/2 pos(22,22)
+[000745 f=37477] nav walking goal=(15, 16) map 3/2 pos(22,20)
+[000746 f=37525] nav walking goal=(15, 16) map 3/2 pos(22,18)
+[000747 f=37573] nav walking goal=(15, 16) map 3/2 pos(22,16)
+[000748 f=37621] nav walking goal=(15, 16) map 3/2 pos(22,14)
+[000749 f=37669] nav walking goal=(15, 16) map 3/2 pos(22,12)
+[000750 f=37717] nav walking goal=(15, 16) map 3/2 pos(21,12)
+[000751 f=37765] nav walking goal=(15, 16) map 3/2 pos(19,12)
+[000752 f=37813] nav walking goal=(15, 16) map 3/2 pos(17,12)
+[000753 f=37861] nav walking goal=(15, 16) map 3/2 pos(15,12)
+[000754 f=37909] nav walking goal=(15, 16) map 3/2 pos(13,12)
+[000755 f=37957] nav walking goal=(15, 16) map 3/2 pos(11,12)
+[000756 f=38005] nav walking goal=(15, 16) map 3/2 pos(9,12)
+[000757 f=38053] nav walking goal=(15, 16) map 3/2 pos(7,12)
+[000758 f=38101] nav walking goal=(15, 16) map 3/2 pos(7,13)
+[000759 f=38149] nav walking goal=(15, 16) map 3/2 pos(7,15)
+[000760 f=38197] nav walking goal=(15, 16) map 3/2 pos(7,17)
+[000761 f=38245] nav walking goal=(15, 16) map 3/2 pos(8,17)
+[000762 f=38293] nav walking goal=(15, 16) map 3/2 pos(10,17)
+[000763 f=38341] nav walking goal=(15, 16) map 3/2 pos(12,17)
+[000764 f=38389] nav walking goal=(15, 16) map 3/2 pos(14,17)
+[000765 f=38437] nav walking goal=(15, 16) map 3/2 pos(16,17)
+[000766 f=38485] nav walking goal=(15, 16) map 3/2 pos(15,17)
+[000767 f=38533] nav walking goal=(15, 16) map 3/2 pos(15,16)
+[000768 f=38618] nav warped goal=(15, 16) map 6/2 pos(6,14)
+[000769 f=38723] map 6/2 13x16 pos(6,14) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(6,14)->3/2 obj=heal
+[000770 f=38793] nav warped goal=(6, 14) map 3/2 pos(15,16)
+[000771 f=38928] map 3/2 48x40 pos(15,16) face=down party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_2 dlg=advance bat=attack obj=story -> wait
+[000772 f=39048] map 3/2 48x40 pos(15,17) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(17,6)->6/0 obj=heal
+[000773 f=39081] nav walking goal=(17, 6) map 3/2 pos(14,17)
+[000774 f=39129] nav walking goal=(17, 6) map 3/2 pos(12,17)
+[000775 f=39177] nav walking goal=(17, 6) map 3/2 pos(10,17)
+[000776 f=39225] nav walking goal=(17, 6) map 3/2 pos(8,17)
+[000777 f=39273] nav walking goal=(17, 6) map 3/2 pos(8,16)
+[000778 f=39321] nav walking goal=(17, 6) map 3/2 pos(8,14)
+[000779 f=39369] nav walking goal=(17, 6) map 3/2 pos(8,12)
+[000780 f=39417] nav walking goal=(17, 6) map 3/2 pos(8,10)
+[000781 f=39465] nav walking goal=(17, 6) map 3/2 pos(8,8)
+[000782 f=39513] nav walking goal=(17, 6) map 3/2 pos(9,8)
+[000783 f=39561] nav walking goal=(17, 6) map 3/2 pos(11,8)
+[000784 f=39609] nav walking goal=(17, 6) map 3/2 pos(13,8)
+[000785 f=39657] nav walking goal=(17, 6) map 3/2 pos(15,8)
+[000786 f=39705] nav walking goal=(17, 6) map 3/2 pos(17,8)
+[000787 f=39753] nav walking goal=(17, 6) map 3/2 pos(17,7)
+[000788 f=39801] nav walking goal=(17, 6) map 3/2 pos(17,6)
+[000789 f=39816] nav warped goal=(17, 6) map 6/0 pos(14,9)
+[000790 f=39921] map 6/0 28x11 pos(14,9) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(8,8)->6/1 obj=heal
+[000791 f=39954] nav walking goal=(8, 8) map 6/0 pos(14,7)
+[000792 f=40002] nav walking goal=(8, 8) map 6/0 pos(14,5)
+[000793 f=40017] nav blocked goal=(8, 8) map 6/0 pos(14,5)
+[000794 f=40144] map 6/0 28x11 pos(14,5) face=right party=1 battle=N dialog='Bon dia!
+L’entrada de xiquets val 50 ¥.?' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000795 f=40286] map 6/0 28x11 pos(14,5) face=right party=1 battle=N dialog='Bon dia!
+L’entrada de xiquets val 50 ¥.?' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000796 f=40398] map 6/0 28x11 pos(14,5) face=right party=1 battle=N dialog='Bon dia!
+L’entrada de xiquets val 50 ¥.?' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000797 f=40540] map 6/0 28x11 pos(14,5) face=right party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_0 dlg=advance bat=attack obj=explore -> a
+[000798 f=40622] map 6/0 28x11 pos(14,5) face=right party=1 battle=N dialog='Moltes gràcies!
+Gaudix de la visita!' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=explore -> a
+[000799 f=40712] map 6/0 28x11 pos(14,5) face=right party=1 battle=N dialog='' | mode=overworld nav_goal=warp(8,8)->6/1 obj=explore
+[000800] decisions: jev=74 codi=727
+[000800 f=40745] nav walking goal=(8, 8) map 6/0 pos(13,5)
+[000801 f=40793] nav walking goal=(8, 8) map 6/0 pos(11,5)
+[000802 f=40841] nav walking goal=(8, 8) map 6/0 pos(9,5)
+[000803 f=40889] nav walking goal=(8, 8) map 6/0 pos(9,6)
+[000804 f=40937] nav walking goal=(8, 8) map 6/0 pos(8,6)
+[000805 f=40985] nav walking goal=(8, 8) map 6/0 pos(8,7)
+[000806 f=41033] nav walking goal=(8, 8) map 6/0 pos(8,9)
+[000807 f=41081] nav walking goal=(8, 8) map 6/0 pos(8,8)
+[000808 f=41166] nav warped goal=(8, 8) map 6/1 pos(11,8)
+[000809 f=41301] map 6/1 19x10 pos(11,8) face=right party=1 battle=N dialog='' | mode=overworld ow=right nav=warp_0 dlg=advance bat=attack obj=story -> wait
+[000810 f=41391] map 6/1 19x10 pos(11,8) face=right party=1 battle=N dialog='' | mode=overworld nav_goal=warp(11,8)->6/0 obj=explore
+[000811 f=41461] nav warped goal=(11, 8) map 6/0 pos(8,8)
+[000812 f=41566] map 6/0 28x11 pos(8,8) face=left party=1 battle=N dialog='' | mode=overworld nav_goal=warp(14,9)->3/2 obj=explore
+[000813 f=41599] nav walking goal=(14, 9) map 6/0 pos(8,7)
+[000814 f=41647] nav walking goal=(14, 9) map 6/0 pos(8,5)
+[000815 f=41695] nav walking goal=(14, 9) map 6/0 pos(9,5)
+[000816 f=41743] nav walking goal=(14, 9) map 6/0 pos(11,5)
+[000817 f=41791] nav walking goal=(14, 9) map 6/0 pos(13,5)
+[000818 f=41839] nav walking goal=(14, 9) map 6/0 pos(13,6)
+[000819 f=41887] nav walking goal=(14, 9) map 6/0 pos(13,8)
+[000820 f=41935] nav walking goal=(14, 9) map 6/0 pos(13,9)
+[000821 f=41983] nav walking goal=(14, 9) map 6/0 pos(15,9)
+[000822 f=42031] nav walking goal=(14, 9) map 6/0 pos(14,9)
+[000823 f=42116] nav warped goal=(14, 9) map 3/2 pos(17,7)
+[000824 f=42251] map 3/2 48x40 pos(17,7) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(15,16)->6/2 obj=explore
+[000825 f=42284] nav walking goal=(15, 16) map 3/2 pos(17,9)
+[000826 f=42332] nav walking goal=(15, 16) map 3/2 pos(17,11)
+[000827 f=42380] nav walking goal=(15, 16) map 3/2 pos(17,12)
+[000828 f=42428] nav walking goal=(15, 16) map 3/2 pos(15,12)
+[000829 f=42476] nav walking goal=(15, 16) map 3/2 pos(13,12)
+[000830 f=42524] nav walking goal=(15, 16) map 3/2 pos(11,12)
+[000831 f=42572] nav walking goal=(15, 16) map 3/2 pos(9,12)
+[000832 f=42620] nav walking goal=(15, 16) map 3/2 pos(7,12)
+[000833 f=42668] nav walking goal=(15, 16) map 3/2 pos(7,13)
+[000834 f=42716] nav walking goal=(15, 16) map 3/2 pos(7,15)
+[000835 f=42764] nav walking goal=(15, 16) map 3/2 pos(7,17)
+[000836 f=42812] nav walking goal=(15, 16) map 3/2 pos(8,17)
+[000837 f=42860] nav walking goal=(15, 16) map 3/2 pos(10,17)
+[000838 f=42908] nav walking goal=(15, 16) map 3/2 pos(12,17)
+[000839 f=42956] nav walking goal=(15, 16) map 3/2 pos(14,17)
+[000840 f=43004] nav walking goal=(15, 16) map 3/2 pos(16,17)
+[000841 f=43052] nav walking goal=(15, 16) map 3/2 pos(15,17)
+[000842 f=43100] nav walking goal=(15, 16) map 3/2 pos(15,16)
+[000843 f=43185] nav warped goal=(15, 16) map 6/2 pos(6,14)
+[000844 f=43290] map 6/2 13x16 pos(6,14) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(6,14)->3/2 obj=heal
+[000845 f=43360] nav warped goal=(6, 14) map 3/2 pos(15,16)
+[000846 f=43495] map 3/2 48x40 pos(15,16) face=down party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_2 dlg=advance bat=attack obj=story -> wait
+[000847 f=43585] map 3/2 48x40 pos(15,17) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(28,18)->6/3 obj=heal
+[000848 f=43618] nav walking goal=(28, 18) map 3/2 pos(14,17)
+[000849 f=43666] nav walking goal=(28, 18) map 3/2 pos(12,17)
+[000850 f=43714] nav walking goal=(28, 18) map 3/2 pos(10,17)
+[000851 f=43762] nav walking goal=(28, 18) map 3/2 pos(8,17)
+[000852 f=43810] nav walking goal=(28, 18) map 3/2 pos(8,16)
+[000853 f=43858] nav walking goal=(28, 18) map 3/2 pos(8,14)
+[000854 f=43906] nav walking goal=(28, 18) map 3/2 pos(8,12)
+[000855 f=43954] nav walking goal=(28, 18) map 3/2 pos(9,12)
+[000856 f=44002] nav walking goal=(28, 18) map 3/2 pos(11,12)
+[000857 f=44050] nav walking goal=(28, 18) map 3/2 pos(13,12)
+[000858 f=44098] nav walking goal=(28, 18) map 3/2 pos(15,12)
+[000859 f=44146] nav walking goal=(28, 18) map 3/2 pos(17,12)
+[000860 f=44194] nav walking goal=(28, 18) map 3/2 pos(19,12)
+[000861 f=44242] nav walking goal=(28, 18) map 3/2 pos(21,12)
+[000862 f=44290] nav walking goal=(28, 18) map 3/2 pos(23,12)
+[000863 f=44338] nav walking goal=(28, 18) map 3/2 pos(23,13)
+[000864 f=44386] nav walking goal=(28, 18) map 3/2 pos(23,15)
+[000865 f=44434] nav walking goal=(28, 18) map 3/2 pos(23,17)
+[000866 f=44482] nav walking goal=(28, 18) map 3/2 pos(23,19)
+[000867 f=44530] nav walking goal=(28, 18) map 3/2 pos(24,19)
+[000868 f=44578] nav walking goal=(28, 18) map 3/2 pos(26,19)
+[000869 f=44626] nav walking goal=(28, 18) map 3/2 pos(28,19)
+[000870 f=44674] nav walking goal=(28, 18) map 3/2 pos(28,18)
+[000871 f=44759] nav warped goal=(28, 18) map 6/3 pos(4,7)
+[000872 f=44894] map 6/3 11x9 pos(4,7) face=up party=1 battle=N dialog='' | mode=overworld ow=up nav=warp_0 dlg=advance bat=attack obj=heal -> wait
+[000873 f=45014] map 6/3 11x9 pos(4,7) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(4,7)->3/2 obj=heal
+[000874 f=45084] nav warped goal=(4, 7) map 3/2 pos(28,18)
+[000875 f=45219] map 3/2 48x40 pos(28,18) face=down party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_2 dlg=advance bat=attack obj=story -> wait
+[000876 f=45339] map 3/2 48x40 pos(28,19) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(15,16)->6/2 obj=heal
+[000877 f=45372] nav walking goal=(15, 16) map 3/2 pos(27,19)
+[000878 f=45420] nav walking goal=(15, 16) map 3/2 pos(25,19)
+[000879 f=45468] nav walking goal=(15, 16) map 3/2 pos(25,18)
+[000880 f=45516] nav walking goal=(15, 16) map 3/2 pos(25,16)
+[000881 f=45564] nav walking goal=(15, 16) map 3/2 pos(25,14)
+[000882 f=45612] nav walking goal=(15, 16) map 3/2 pos(25,12)
+[000883 f=45660] nav walking goal=(15, 16) map 3/2 pos(24,12)
+[000884 f=45708] nav walking goal=(15, 16) map 3/2 pos(22,12)
+[000885 f=45756] nav walking goal=(15, 16) map 3/2 pos(20,12)
+[000886 f=45804] nav walking goal=(15, 16) map 3/2 pos(18,12)
+[000887 f=45852] nav walking goal=(15, 16) map 3/2 pos(16,12)
+[000888 f=45900] nav walking goal=(15, 16) map 3/2 pos(14,12)
+[000889 f=45948] nav walking goal=(15, 16) map 3/2 pos(12,12)
+[000890 f=45996] nav walking goal=(15, 16) map 3/2 pos(10,12)
+[000891 f=46044] nav walking goal=(15, 16) map 3/2 pos(8,12)
+[000892 f=46092] nav walking goal=(15, 16) map 3/2 pos(8,13)
+[000893 f=46140] nav walking goal=(15, 16) map 3/2 pos(8,15)
+[000894 f=46188] nav walking goal=(15, 16) map 3/2 pos(8,17)
+[000895 f=46236] nav walking goal=(15, 16) map 3/2 pos(9,17)
+[000896 f=46284] nav walking goal=(15, 16) map 3/2 pos(11,17)
+[000897 f=46332] nav walking goal=(15, 16) map 3/2 pos(13,17)
+[000898 f=46380] nav walking goal=(15, 16) map 3/2 pos(15,17)
+[000899 f=46428] nav walking goal=(15, 16) map 3/2 pos(15,16)
+[000900 f=46513] nav warped goal=(15, 16) map 6/2 pos(6,14)
+[000901 f=46648] map 6/2 13x16 pos(6,14) face=up party=1 battle=N dialog='' | mode=overworld ow=up nav=warp_0 dlg=advance bat=attack obj=heal -> wait
+[000902 f=46738] map 6/2 13x16 pos(6,14) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(6,14)->3/2 obj=heal
+[000903 f=46808] nav warped goal=(6, 14) map 3/2 pos(15,16)
+[000904 f=46973] map 3/2 48x40 pos(15,16) face=down party=1 battle=N dialog='' | mode=overworld ow=down nav=warp_4 dlg=advance bat=attack obj=heal -> wait
+[000905 f=47093] map 3/2 48x40 pos(15,17) face=down party=1 battle=N dialog='' | mode=overworld nav_goal=warp(17,25)->6/5 obj=heal
+[000906 f=47126] nav walking goal=(17, 25) map 3/2 pos(14,17)
+[000907 f=47174] nav walking goal=(17, 25) map 3/2 pos(12,17)
+[000908 f=47222] nav walking goal=(17, 25) map 3/2 pos(10,17)
+[000909 f=47270] nav walking goal=(17, 25) map 3/2 pos(8,17)
+[000910 f=47318] nav walking goal=(17, 25) map 3/2 pos(8,16)
+[000911 f=47366] nav walking goal=(17, 25) map 3/2 pos(8,14)
+[000912 f=47414] nav walking goal=(17, 25) map 3/2 pos(8,12)
+[000913 f=47462] nav walking goal=(17, 25) map 3/2 pos(9,12)
+[000914 f=47510] nav walking goal=(17, 25) map 3/2 pos(11,12)
+[000915 f=47558] nav walking goal=(17, 25) map 3/2 pos(13,12)
+[000916 f=47606] nav walking goal=(17, 25) map 3/2 pos(15,12)
+[000917 f=47654] nav walking goal=(17, 25) map 3/2 pos(17,12)
+[000918 f=47702] nav walking goal=(17, 25) map 3/2 pos(19,12)
+[000919 f=47750] nav walking goal=(17, 25) map 3/2 pos(21,12)
+[000920 f=47798] nav walking goal=(17, 25) map 3/2 pos(23,12)
+[000921 f=47846] nav walking goal=(17, 25) map 3/2 pos(23,13)
+[000922 f=47894] nav walking goal=(17, 25) map 3/2 pos(23,15)
+[000923 f=47942] nav walking goal=(17, 25) map 3/2 pos(23,17)
+[000924 f=47990] nav walking goal=(17, 25) map 3/2 pos(23,19)
+[000925 f=48038] nav walking goal=(17, 25) map 3/2 pos(23,21)
+[000926 f=48086] nav walking goal=(17, 25) map 3/2 pos(23,23)
+[000927 f=48134] nav walking goal=(17, 25) map 3/2 pos(23,25)
+[000928 f=48182] nav walking goal=(17, 25) map 3/2 pos(23,27)
+[000929 f=48230] nav walking goal=(17, 25) map 3/2 pos(23,26)
+[000930 f=48278] nav walking goal=(17, 25) map 3/2 pos(22,26)
+[000931 f=48326] nav walking goal=(17, 25) map 3/2 pos(20,26)
+[000932 f=48374] nav walking goal=(17, 25) map 3/2 pos(18,26)
+[000933 f=48422] nav walking goal=(17, 25) map 3/2 pos(16,26)
+[000934 f=48470] nav walking goal=(17, 25) map 3/2 pos(17,26)
+[000935 f=48518] nav walking goal=(17, 25) map 3/2 pos(17,25)
+[000936 f=48603] nav warped goal=(17, 25) map 6/5 pos(7,8)
+[000937 f=48738] map 6/5 15x10 pos(7,8) face=up party=1 battle=N dialog='' | mode=overworld ow=up nav=warp_0 dlg=advance bat=attack obj=explore -> wait
+[000938 f=48858] map 6/5 15x10 pos(7,8) face=up party=1 battle=N dialog='' | mode=overworld nav_goal=warp(1,6)->6/6 obj=explore
+[000939 f=48891] nav walking goal=(1, 6) map 6/5 pos(7,6)
+[000940 f=48939] nav walking goal=(1, 6) map 6/5 pos(6,6)
+[000941 f=48987] nav walking goal=(1, 6) map 6/5 pos(4,6)
+[000942 f=49035] nav walking goal=(1, 6) map 6/5 pos(2,6)
+[000943 f=49083] nav walking goal=(1, 6) map 6/5 pos(1,6)
+[000944 f=49113] nav warped goal=(1, 6) map 6/6 pos(1,6)
+[000945 f=49251] map 6/6 15x10 pos(1,6) face=down party=1 battle=N dialog='' | mode=overworld ow=right nav=warp_1 dlg=advance bat=attack obj=explore -> right
+[000946 f=49333] map 6/6 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000947 f=49445] map 6/6 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000948 f=49587] map 6/6 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000949 f=49699] map 6/6 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000950 f=49841] map 6/6 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000951 f=49953] map 6/6 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000952 f=50095] map 6/6 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000953 f=50207] map 6/6 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000954 f=50319] map 6/6 15x10 pos(2,6) face=up party=1 battle=N dialog='Hola!
+Em dic KIONA.?És la primera vegada' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000955 f=50431] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_1 dlg=advance bat=attack obj=explore -> a
+[000956 f=50573] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000957 f=50685] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000958 f=50827] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000959 f=50939] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000960 f=51081] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000961 f=51193] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000962 f=51305] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000963 f=51417] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000964 f=51559] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000965 f=51671] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000966 f=51813] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000967 f=51925] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000968 f=52037] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000969 f=52149] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000970 f=52261] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000971 f=52373] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_1 dlg=advance bat=attack obj=story -> a
+[000972 f=52485] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000973 f=52597] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000974 f=52739] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000975 f=52851] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000976 f=52993] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000977 f=53105] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000978 f=53217] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000979 f=53329] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000980 f=53441] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000981 f=53553] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000982 f=53725] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Al primer pis dels CENTRES
+POKéMON hi ha' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000983 f=53837] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='' | mode=overworld ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000984 f=53949] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000985 f=54061] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000986 f=54203] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+[000987 f=54315] map 6/6 15x10 pos(2,4) face=up party=1 battle=N dialog='Hola, PERE!?Soc jo, KIONA, la recepcioni' | mode=dialog ow=interact nav=warp_0 dlg=advance bat=attack obj=story -> a
+
+aturat per l'usuari
