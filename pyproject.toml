@@ -1,0 +1,31 @@
+[project]
+name = "flamaroja-jev"
+version = "0.1.0"
+description = "System One (Jev) harness que juga a Pokémon Flama Roja (FireRed al català) via mGBA"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "typesafe-sdk>=0.6.0",
+    "system-one-adapter[openai,anthropic]>=0.1.4",
+    "pygba>=0.2.9",
+    "pillow>=10.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+flamaroja = "flamaroja.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.8,<0.9"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "flamaroja"
+
+[tool.ruff]
+exclude = [".mgba-x86_64"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/flamaroja/cli.py" = ["BLE001"]
+"src/flamaroja/emulator.py" = ["BLE001"]
+"src/flamaroja/trace.py" = ["SIM115"]
